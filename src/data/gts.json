@@ -1,0 +1,122 @@
+{
+    "São Paulo": [{
+        "name": "Centro de Memória da Educação da Faculdade de Educação",
+        "local": ["Universidade de São Paulo - USP 1994"]
+    },
+    {
+        "name": "Grupo de Pesquisa Trabalho e Educação",
+        "local": ["Universidade de São Paulo - USP 2000"]
+    },
+    {
+        "name": "Núcleo de Estudos Trabalho, saúde e subjetividade (NETSS)",
+        "local": ["Universidade Estadual de Campinas - UNICAMP"]
+    }],
+    "Santa Catarina": [{
+        "name": "Comunicação, Trabalho e Educação – COMUTE",
+        "local": ["Universidade do Estado de Santa Catarina - UDESC 2002"]
+    },
+    {
+        "name": "Núcleo De Estudos Sobre as Transformações no Mundo do Trabalho – TMT",
+        "local": ["Universidade Federal de Santa Catarina - UFSC 1996"]
+    }],
+    "Bahia": [{
+        "name": "Grupo de Estudos e Pesquisas Marxistas (GEPM) 2011",
+        "local": ["UFRB - Universidade Federal do Recôncavo da Bahia"]
+    }],
+    "Minas Gerais": [{
+        "name": "Formação e Produção Científica em Educação Profissional Integrada à EJA – EPIEJA",
+        "local": ["Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG 2006"]
+    },
+    {
+        "name": "Grupo de Pesquisa em Formação e Qualificação Profissional – FORQUAP",
+        "local": ["Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG 2002"]
+    },
+    {
+        "name": "NETE – Núcleo de Estudos sobre Trabalho e Educação",
+        "local": ["Universidade Federal de Minas Gerais - UFMG 1995"]
+    }],
+    "Pará": [{
+        "name": "GEPTE – Grupo de Estudos e Pesquisas Sobre Trabalho e Educação",
+        "local": ["Universidade Federal do Pará - UFPA 2001"]
+    }, 
+    {
+        "name": "Grupo de Estudo e Pesquisa sobre Gestão, Trabalho e Educação - GEPGETE (UEPA)",
+        "local": ["Universidade Estadual do Pará - UEPA"]
+    }],
+    "Paraná": [{
+        "name": "GETET – Grupo de Estudos e Pesquisas em Trabalho, Educação e Tecnologia",
+        "local": "Universidade Tecnológica Federal do Paraná - UTFPR 2004"
+    }],
+    "Alagoas": [{
+        "name": "GP-TESE – Grupo de Estudos e Pesquisas sobre Trabalho, Estado, Sociedade e Educação",
+        "local": ["Universidade Federal de Alagoas - UFAL 2004"]
+    }],
+    "Rio de Janeiro": [{
+        "name": "Grupo de Estudos e Pesquisa em Trabalho e Educação - GEPTE",
+        "local": ["Fundação Oswaldo Cruz - FIOCRUZ 2003"]
+    },
+    {
+        "name": "Grupo de Pesquisa em Trabalho-Educação e Educação Ambiental - GPTEEA",
+        "local": ["Universidade Federal do Rio de Janeiro - UFRJ 2009"]
+    },
+    {
+        "name": "Grupo de Pesquisa Sobre Trabalho, Política e Sociedade – GTPS",
+        "local": ["Universidade Federal do Rio de Janeiro - UFRJ 2006"]
+    },
+    {
+        "name": "Grupo THESE – Projetos Integrados de Pesquisas em Trabalho, História, Educação e Saúde",
+        "local": ["Universidade Federal Fluminense - UFF", "UFRJ", "EPSJV-Fiocruz"]
+    },
+    {
+        "name": "Núcleo de Estudos, Documentação e Dados sobre Trabalho e Educação – NEDATTE",
+        "local": ["Universidade Federal Fluminense - UFF (1985)"]
+    }],
+    "Ceará": [{
+        "name": "Centro de Estudos do Trabalho e Ontologia do Ser Social – CETROS 2013",
+        "local": ["Universidade Estadual do Ceará - UECE"]
+    },
+    {
+        "name": "LABOR – Laboratório de Estudos do Trabalho e Qualificação Profissional",
+        "local": ["Universidade Federal do Ceará - UFC 2003"]
+    },
+    {
+        "name": "Laboratório Universitário de Educação Popular, Trabalho e Movimentos Sociais – LUTEMOS",
+        "local": ["Universidade Estadual do Ceará - UECE"]
+    },
+    {
+        "name": "Núcleo de Pesquisas sobre a Educação Profissional – NUPEP",
+        "local": ["Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE 2004"]
+    }],
+    "Piauí": [{
+        "name": "Grupo de Estudos e Pesquisas em Educação e Marxismo (GEPEM)",
+        "local": ["Universidade Estadual do Piauí - UESPI"]
+    },
+    {
+        "name": "Grupo de Estudos Marxistas Piauiense – GEMPI",
+        "local": ["Universidade Estadual do Piauí - UESPI", "Universidade Federal do Piauí - UFPI"]
+    }],
+    "Amazonas": [{
+        "name": "Grupo de Pesquisa Políticas de Educação Básica do PPGE",
+        "local": ["Universidade Federal do Amazonas - UFMA"]
+    },
+    {
+        "name": "GTE – Gênero, Trabalho e Educação",
+        "local": ["Universidade Federal do Amazonas - UFAM 2002"]
+    }],
+    "Pernambuco": [{
+        "name": "Grupo de Pesquisa Qualificação Profissional e Relações entre Trabalho e Educação",
+        "local": ["Universidade Federal de Pernambuco - UFPE 2002"]
+    }],
+    "Mato Grosso": [{
+        "name": "Grupo de Pesquisa Trabalho e Educação – GPTE",
+        "local": ["Universidade Federal do Mato Grosso - UFMT 2010"]
+    }],
+    "Distrito Federal": [{
+        "name": "Núcleo de Estudos e Pesquisa em Educação e Trabalho – NEPET",
+        "local": ["Universidade de Brasilia - UNB 2000"]
+    }],
+    "Rio Grande do Norte": [{
+        "name": "Núcleo de Pesquisa em Educação – NUPED",
+        "local": ["Universidade Federal do Rio Grande do Norte - UFRN 2004"]
+    }]
+}
