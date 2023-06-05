@@ -39,7 +39,7 @@ const BrazilMap = () => {
         roam: false,
         map: 'BR',
         data: [
-          { name: 'Acre', value: 0 },
+          { name: 'Acre', value: gts['Acre'].length },
           { name: 'Alagoas', value: gts['Alagoas'].length },
           { name: 'Amapá', value: 0 },
           { name: 'Amazonas', value: gts['Amazonas'].length  },
@@ -52,19 +52,19 @@ const BrazilMap = () => {
           { name: 'Mato Grosso do Sul', value: 0 },
           { name: 'Minas Gerais', value: gts['Minas Gerais'].length },
           { name: 'Pará', value: gts['Pará'].length },
-          { name: 'Paraíba', value: 0 },
+          { name: 'Paraíba', value: gts['Paraíba'].length },
           { name: 'Paraná', value: gts['Paraná'].length },
           { name: 'Pernambuco', value: gts['Pernambuco'].length },
           { name: 'Piauí', value: gts['Piauí'].length },
           { name: 'Rio de Janeiro', value: gts['Rio de Janeiro'].length },
           { name: 'Rio Grande do Norte', value: gts['Rio Grande do Norte'].length },
-          { name: 'Rio Grande do Sul', value: 0 },
-          { name: 'Rondônia', value: 0 },
+          { name: 'Rio Grande do Sul', value: gts['Rio Grande do Sul'].length },
+          { name: 'Rondônia', value: gts['Rondônia'].length },
           { name: 'Roraima', value: 0 },
           { name: 'Santa Catarina', value: gts['Santa Catarina'].length },
           { name: 'São Paulo', value: gts['São Paulo'].length },
-          { name: 'Sergipe', value: 0 },
-          { name: 'Tocantins', value: 0 },
+          { name: 'Sergipe', value: gts['Sergipe'].length },
+          { name: 'Tocantins', value: gts['Tocantins'].length },
           { name: 'Distrito Federal', value: gts['Distrito Federal'].length }
         ]
       }
