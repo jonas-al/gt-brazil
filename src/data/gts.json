@@ -1,23 +1,82 @@
 {
     "São Paulo": [{
-        "name": "Centro de Memória da Educação da Faculdade de Educação",
-        "local": ["Universidade de São Paulo - USP 1994"]
+        "name": "Centro de Memória da Educação da Faculdade de Educação (CME)",
+        "local": ["Universidade de São Paulo - USP 1994"],
+        "researchers": [
+            "Carmen Sylvia V. Moraes (Coordenadora)",
+            "Cecilia Cortez (Coordenadora)",
+            "Cecilia Hanna Matte (Coordenadora)",
+            "Doris Acioly e Silva",
+            "Bruno Bomtempi Junior",
+            "Nelson Schapochnik"
+        ],
+        "thematic": [
+            "Fontes para a presença feminina na educação",
+            "Contribuição para a pesquisa do ensino técnico em São Paulo"
+        ],
+        "contacts": {
+            "site": "Site: http://www2.fe.usp.br/estrutura/cme/cme1.html"
+        }
     },
     {
         "name": "Grupo de Pesquisa Trabalho e Educação",
-        "local": ["Universidade de São Paulo - USP 2000"]
+        "local": ["Universidade de São Paulo - USP 2000"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Núcleo de Estudos Trabalho, saúde e subjetividade (NETSS)",
-        "local": ["Universidade Estadual de Campinas - UNICAMP"]
+        "local": ["Universidade Estadual de Campinas - UNICAMP"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Santa Catarina": [{
-        "name": "Comunicação, Trabalho e Educação – COMUTE",
-        "local": ["Universidade do Estado de Santa Catarina - UDESC 2002"]
+        "name": "Comunicação, Trabalho e Educação – COMUTE (2002)",
+        "local": ["Universidade do Estado de Santa Catarina - UDESC"],
+        "researchers": [
+            "Mariléia da Silva (líder) – UDESC (Coord.)",
+            "Elisa Quartiero – UDESC (Coord.)",
+            "Lucídio Bianchetti (UFSC)",
+            "Bethânia Geremias (UDESC)",
+            "Fernando Cesar Sossai (UNIVILLI)",
+            "Geovana Lunardi (UDESC)",
+            "José Cláudio Morelli (UDESC)",
+            "Roseli Zen Cerny (UFSC)"
+        ],
+        "thematic": [
+            "As perspectivas filosóficas, conceituais e históricas do estudo da comunicação.",
+            "As transformações no mundo do trabalho",
+            "As tecnologias de informação e de comunicação na educação",
+            "Mídia e educação",
+            "Meios de comunicação e a formação de professores",
+            "Comunicação, cultura e suas implicações para os processos de ensino e de aprendizagem",
+            "Educação a distância",
+            "Trabalho, educação e tecnologia"
+        ],
+        "contacts": {
+            "email": "E-mails: marileiamaria@hotmail.com elisa.quartiero@pq.cnpq.br"
+        }
     },
     {
         "name": "Núcleo De Estudos Sobre as Transformações no Mundo do Trabalho – TMT",
-        "local": ["Universidade Federal de Santa Catarina - UFSC 1996"]
+        "local": ["Universidade Federal de Santa Catarina - UFSC 1996"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Trabalho e Conhecimento na Educação Superior – TRACES",
@@ -67,8 +126,30 @@
         "contacts": "Site: www.gepeto.ced.ufsc.br E-mail: gepeto@ced.ufsc.br"
     }],
     "Bahia": [{
-        "name": "Grupo de Estudos e Pesquisas Marxistas (GEPM) 2011",
-        "local": ["UFRB - Universidade Federal do Recôncavo da Bahia"]
+        "name": "Grupo de Estudos e Pesquisas Marxistas - GEPM (2011)",
+        "local": ["UFRB - Universidade Federal do Recôncavo da Bahia"],
+        "researchers": [
+            "Rosana Soares - Artes Visuais - UFRB - Coordenadora",
+            "Rosenaria Ferraz - Serviço Social - UFRB- Vice-Coordenadora",
+            "Aroldo Felix de Azevedo Júnior - Eng. Química/Cetens - UFRB",
+            "Bruno José Rodrigues Durães - Ciências Sociais - UFRB",
+            "Carla Carolina Costa Novoa - Pedagogia - UFRB",
+            "Diogo Valença de Azevedo Costa - - Ciências Sociais -UFRB",
+            "Glaucia Maria Tinoco Barbosa - - Ciências Sociais - Universidade Federal do Amapá",
+            "Gutemberg da Silva Miranda - Filosofia- UFAL",
+            "Henrique Sena - História - UFRB",
+            "Iuri Roberto Sacramento Ramos - História/Sociologia - UNEB",
+            "Luiz Henrique Sá da Nova - Comunicação - UFRB",
+            "Márcia da Silva Clemente - Serviço Social - UFRB"
+        ],
+        "thematic": [
+            "Marxismo e Trabalho na Sociedade Contemporânea",
+            "Marxismo, política, cultura e mídia",
+            "O marxismo na América Latina"
+        ],
+        "contacts": {
+            "site": "www2.ufrb.edu.br"
+        }
     },
     {
         "name": "Grupo de Pesquisa Relações de trabalho, crítica, política e contemporaneidade",
@@ -95,15 +176,71 @@
     }],
     "Minas Gerais": [{
         "name": "Formação e Produção Científica em Educação Profissional Integrada à EJA – EPIEJA",
-        "local": ["Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG 2006"]
+        "local": ["Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG 2006"],
+        "researchers": [
+            "Aparecida da Silva (CEFET-MG) Coordenadora",
+            "Ana Maria Gomes (UFMG)",
+            "Antônia Soares Aranha (UFMG)",
+            "Daisy Moreira Cunha (UFMG)",
+            "Dileno Lucas de Souza (UFV)",
+            "Fernando Fidalgo (UFMG)",
+            "José Gariglio (CEFET-MG)",
+            "Irlen Antônio Gonçalves",
+            "Lucia Helena A. Leite (UFV)",
+            "Gilvanice Musial (FAE/UEMG)",
+            "Maria Inês Coelhos (FAE/UEMG)",
+            "Marildes Marinho (in memorian)",
+            "Nágela Brandão (FAE/UEMG)",
+            "Roberto Resende (FAE/UEMG)",
+            "Silvani Valentim (CEFET-MG)",
+            "Suzana Alves Escobar (IFNMG)",
+            "Vânia Costa (FAE/UEMG)",
+            "Willer Barbosa (UFV)"
+        ],
+        "thematic": [
+            "Currículo e prática de ensino na EPIEJA",
+            "História da Educação Profissional Integrada à EJA",
+            "Construção de identidades socioculturais e EPIEJA",
+            "Trabalho e Educação Profissional Integrada à EJA",
+            "Formação de professores na EPIEJA",
+            "Desenvolvimento humano sustentável",
+            "Arranjos produtivos locais e EPIEJA"
+        ],
+        "contacts": {
+            "site": "Site: www.dppg.cefetmg.br",
+            "email": "E-mail: masilva46@des.cefetmg.br",
+            "telefone": "Telefone: (31) 3319-7015"
+        }
     },
     {
-        "name": "Grupo de Pesquisa em Formação e Qualificação Profissional – FORQUAP",
-        "local": ["Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG 2002"]
+        "name": "Grupo de Pesquisa em Formação e Qualificação Profissional – FORQUAP (2002)",
+        "local": ["Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG"],
+        "researchers": [
+            "Adriana Maria Tonini (Líder)",
+            "João Bosco Laudares (Líder)",
+            "Edmilson Leite Paixão",
+            "Rosa Maria Ricoi"
+        ],
+        "thematic": [
+            "Trabalho e Educação",
+            "Formação, Qualificação e Requalificação Profissional",
+            "Novas Tecnologias Organizacionais e de Gestão"
+        ],
+        "contacts": {
+            "site": "Site: https://www.forquap.cefetmg.br/",
+            "email": "atonini@cead.ufop.br - jblaudares@terra.com.br "
+        }
     },
     {
         "name": "NETE – Núcleo de Estudos sobre Trabalho e Educação",
-        "local": ["Universidade Federal de Minas Gerais - UFMG 1995"]
+        "local": ["Universidade Federal de Minas Gerais - UFMG 1995"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Grupo de Estudos e Pesquisa: Trabaloh, Educação E Memória (2020)",
@@ -133,15 +270,48 @@
     }],
     "Pará": [{
         "name": "GEPTE – Grupo de Estudos e Pesquisas Sobre Trabalho e Educação",
-        "local": ["Universidade Federal do Pará - UFPA 2001"]
+        "local": ["Universidade Federal do Pará - UFPA 2001"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }, 
     {
         "name": "Grupo de Estudo e Pesquisa sobre Gestão, Trabalho e Educação - GEPGETE (UEPA)",
-        "local": ["Universidade Estadual do Pará - UEPA"]
+        "local": ["Universidade Estadual do Pará - UEPA"],
+        "researchers": [
+            "Profª. Drª. Diana Lemes Ferreira (UEPA)",
+            "Profª. Kelrya Camila da Conceição Alves (UEPA)",
+            "Profª. Drª. Maria Auxiliadora Maués de Lima Araujo - Líder (UEPA)",
+            "Profª. M.Sc. Maria Rosana de Oliveira Castro - Líder (UEPA)",
+            "Profª. Rafaela da Silva Mesquita",
+            "Prof. Dr. Ronaldo Marcos de Lima Araujo (UFPA)"
+        ],
+        "thematic": [
+            "Trabalho e Educação",
+            "Educação Profissional",
+            "Trabalho Escravo",
+            "Didática da Educação Profissional",
+            "Trabalho Infantil",
+            "Políticas e Práticas na Formação do Trabalhador"
+        ],
+        "contacts": {
+            "site": "gepgete.blogspot.com"
+        }
     }],
     "Paraná": [{
         "name": "GETET – Grupo de Estudos e Pesquisas em Trabalho, Educação e Tecnologia",
-        "local": ["Universidade Tecnológica Federal do Paraná - UTFPR 2004"]
+        "local": ["Universidade Tecnológica Federal do Paraná - UTFPR 2004"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "GP-TESE – Grupo de Estudos e Pesquisas sobre Trabalho, Estado, Sociedade e Educação (2003)",
@@ -189,44 +359,149 @@
         "contacts": "E-mail: alessandrodemelo2006@hotmail.com"
     }],
     "Alagoas": [{
-        "name": "GP-TESE – Grupo de Estudos e Pesquisas sobre Trabalho, Estado, Sociedade e Educação",
-        "local": ["Universidade Federal de Alagoas - UFAL 2004"]
+        "name": "GP-TESE – Grupo de Estudos e Pesquisas sobre Trabalho, Estado, Sociedade e Educação - (2004)",
+        "local": ["Universidade Federal de Alagoas - UFAL"],
+        "researchers": [
+            "Georgia Sobreira dos Santos Cêa (UFAL)",
+            "Sandra Regina Paz da Silva (UFAL)"
+        ],
+        "thematic": [
+            "Centralidade da categoria trabalho nas diferentes possibilidades de compreensão da educação e das suas relações e articulações com o Estado e a Sociedade",
+            "Transformações do trabalho no capitalismo e suas implicações e desdobramentos no campo da formação e da organização dos trabalhadores",
+            "Políticas sociais, trabalho e educação",
+            "Movimentos sociais, trabalho e educação"
+        ],
+        "contacts": {
+            "email": "E-mail: gecea@uol.com.br - sandra.pe@bol.com.br"
+        }
     }],
     "Rio de Janeiro": [{
-        "name": "Grupo de Estudos e Pesquisa em Trabalho e Educação - GEPTE",
-        "local": ["Fundação Oswaldo Cruz - FIOCRUZ 2003"]
+        "name": "Grupo de Estudos e Pesquisa em Trabalho e Educação - GEPTE (2003)",
+        "local": ["Fundação Oswaldo Cruz - FIOCRUZ"],
+        "researchers": [
+            "Aparecida Tiradentes dos Santos – EPSJV",
+            "Fiocruz (Coordenadora)",
+            "Airton Monteiro – IFRJ",
+            "Beatriz P. da Silva – EPSJV/Fiocruz",
+            "Cidália Feio – SME Duque de Caxias",
+            "Daniele Cruz Luz – SEEDUC-RJ",
+            "Eduardo Almada – FIOCRUZ e IFRJ",
+            "Nayla Ferreira Ribeiro - EPSJV/Fiocruz",
+            "Solange Castelano – SESC"
+        ],
+        "thematic": [
+            "Concepções e Práticas na Formação dos Trabalhadores em Saúde",
+            "Educação em Saúde",
+            "Trabalho e Educação na Saúde"
+        ],
+        "contacts": {
+            "email": "Email: apsantos@fiocruz.br",
+            "telefone": "Telefone: (21) 3865-9841"
+        }
     },
     {
         "name": "Grupo de Pesquisa em Trabalho-Educação e Educação Ambiental - GPTEEA",
-        "local": ["Universidade Federal do Rio de Janeiro - UFRJ 2009"]
+        "local": ["Universidade Federal do Rio de Janeiro - UFRJ 2009"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Grupo de Pesquisa Sobre Trabalho, Política e Sociedade – GTPS",
-        "local": ["Universidade Federal do Rio de Janeiro - UFRJ 2006"]
+        "local": ["Universidade Federal do Rio de Janeiro - UFRJ 2006"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Grupo THESE – Projetos Integrados de Pesquisas em Trabalho, História, Educação e Saúde",
-        "local": ["Universidade Federal Fluminense - UFF", "UFRJ", "EPSJV-Fiocruz"]
+        "local": ["Universidade Federal Fluminense - UFF", "UFRJ", "EPSJV-Fiocruz"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Núcleo de Estudos, Documentação e Dados sobre Trabalho e Educação – NEDATTE",
-        "local": ["Universidade Federal Fluminense - UFF (1985)"]
+        "local": ["Universidade Federal Fluminense - UFF (1985)"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Ceará": [{
-        "name": "Centro de Estudos do Trabalho e Ontologia do Ser Social – CETROS 2013",
-        "local": ["Universidade Estadual do Ceará - UECE"]
+        "name": "Centro de Estudos do Trabalho e Ontologia do Ser Social – CETROS (2013)",
+        "local": ["Universidade Estadual do Ceará - UECE"],
+        "researchers": [
+            "Líder(es) do grupo: Epitacio Macario Moura e Erlenia Sobral do Vale Celio Ribeiro Coutinho",
+            "Elda Maria Freire Maciel",
+            "Flávia Rebecca Fernandes Rocha",
+            "José Eudes Baima Bezerra",
+            "Maria do Socorro Camelo Maciel",
+            "Mônica Duarte Cavaignac",
+            "Natan dos Santos Rodrigues Junior",
+            "Pedro Rafael Costa Silva",
+            "Raquel de Brito Sousa",
+            "Régia Maria Prado Pinto",
+            "Sâmbara Paula Francelino Ribeiro",
+            "Tainara Alexandre Lopes"
+        ],
+        "thematic": [
+            "ESTADO, QUESTÃO SOCIAL E LUTAS SOCIAIS",
+            "TRABALHO, EDUCAÇÃO E SOCIABILIDADE: FUNDAMENTOS ONTOLÓGICOS E SÓCIO HISTÓRICOS",
+            "TRABALHO, FORMAÇÃO PROFISSIONAL E INSTRUMENTALIDADE EM SERVIÇO SOCIAL"
+        ],
+        "contacts": {
+            "site": "uece.br/cetros",
+            "email": "epitacio.macario@uece.br"
+        }
     },
     {
         "name": "LABOR – Laboratório de Estudos do Trabalho e Qualificação Profissional",
-        "local": ["Universidade Federal do Ceará - UFC 2003"]
+        "local": ["Universidade Federal do Ceará - UFC 2003"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Laboratório Universitário de Educação Popular, Trabalho e Movimentos Sociais – LUTEMOS",
-        "local": ["Universidade Estadual do Ceará - UECE"]
+        "local": ["Universidade Estadual do Ceará - UECE"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Núcleo de Pesquisas sobre a Educação Profissional – NUPEP",
-        "local": ["Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE 2004"]
+        "local": ["Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE 2004"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Grupo de Estudos Marxistas – GEM (UFC)",
@@ -240,35 +515,93 @@
     }],
     "Piauí": [{
         "name": "Grupo de Estudos e Pesquisas em Educação e Marxismo (GEPEM)",
-        "local": ["Universidade Estadual do Piauí - UESPI"]
+        "local": ["Universidade Estadual do Piauí - UESPI"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "Grupo de Estudos Marxistas Piauiense – GEMPI",
-        "local": ["Universidade Estadual do Piauí - UESPI", "Universidade Federal do Piauí - UFPI"]
+        "local": ["Universidade Estadual do Piauí - UESPI", "Universidade Federal do Piauí - UFPI"],
+        "researchers": [
+        ],
+        "thematic": [
+            "Materialismo histórico-dialético, de categorias ontológicas em Marx e Engels"
+        ],
+        "contacts": {
+            "site": "Site: https://gempiphb.wixsite.com/site",
+            "email": "Email: gempi.phb@gmail.com"
+        }
     }],
     "Amazonas": [{
         "name": "Grupo de Pesquisa Políticas de Educação Básica do PPGE",
-        "local": ["Universidade Federal do Amazonas - UFMA"]
+        "local": ["Universidade Federal do Amazonas - UFMA"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     },
     {
         "name": "GTE – Gênero, Trabalho e Educação",
-        "local": ["Universidade Federal do Amazonas - UFAM 2002"]
+        "local": ["Universidade Federal do Amazonas - UFAM 2002"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Pernambuco": [{
         "name": "Grupo de Pesquisa Qualificação Profissional e Relações entre Trabalho e Educação",
-        "local": ["Universidade Federal de Pernambuco - UFPE 2002"]
+        "local": ["Universidade Federal de Pernambuco - UFPE 2002"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Mato Grosso": [{
         "name": "Grupo de Pesquisa Trabalho e Educação – GPTE",
-        "local": ["Universidade Federal do Mato Grosso - UFMT 2010"]
+        "local": ["Universidade Federal do Mato Grosso - UFMT 2010"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Distrito Federal": [{
         "name": "Núcleo de Estudos e Pesquisa em Educação e Trabalho – NEPET",
-        "local": ["Universidade de Brasilia - UNB 2000"]
+        "local": ["Universidade de Brasilia - UNB 2000"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Rio Grande do Norte": [{
         "name": "Núcleo de Pesquisa em Educação – NUPED",
-        "local": ["Universidade Federal do Rio Grande do Norte - UFRN 2004"]
+        "local": ["Universidade Federal do Rio Grande do Norte - UFRN 2004"],
+        "researchers": [
+        ],
+        "thematic": [
+        ],
+        "contacts": {
+            "site": ""
+        }
     }],
     "Rio Grande do Sul": [{
         "name": "Trabalho, Movimentos Sociais e Educação – TRAMSE (2000)",
@@ -342,13 +675,32 @@
         "contacts": "E-mails: egbert@terra.com.br, clarafis@cpovo.net - Fones para contato: (51) 98060771 (Edla) e (51) 99146550 (Maria Clara)"
     }],
     "Sergipe": [{
-        "name": "EFPTRG – Educação, Formação, Processo de Trabalho e Relações de Gênero (2002)",
+        "name": "EFPTRG – Educação, Formação, Processo de Trabalho e Relações de Gênero (1992)",
         "local": ["Universidade Federal do Sergipe - UFS"],
         "researchers": [
+            "Líder: Maria Helena Santana Cruz",
+            "Alfrancio Ferreira Dias",
+            "Ana Paula Leite Nascimento",
+            "Catarina Nascimento de Oliveira",
+            "Jorge Flávio Santana Cruz",
+            "Josefa Lusitânia de Jesus Borges",
+            "Karina Santana Cruz",
+            "Maria Aparecida Souza Couto",
+            "Noemia Lima Silva",
+            "Silmere Alves Santos",
+            "Vera Núbia Santos"
         ],
         "thematic": [
+            "Saberes e Competências",
+            "Gênero",
+            "Sexualidade e Educação",
+            "Políticas Públicas e Educação",
+            "Relações de Gênero, Educação e Trabalho Violência e Relações de Gênero"
         ],
-        "contacts": "E-mail: helenacruz@uol.com.br"
+        "contacts": {
+            "site": "http://dgp.cnpq.br/dgp/espelhogrupo/6394280941382320",
+            "email": "helenacruz@uol.com.br"
+        }
     }],
     "Rondônia": [{
         "name": "NUPEHT-RO Núcleo de Pesquisa e Estudos em História, Trabalho e Educação em Rondônia (2019)",
