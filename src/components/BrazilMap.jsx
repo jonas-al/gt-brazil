@@ -5,7 +5,7 @@ import * as echarts from 'echarts/core'
 import Card from '@/components/Card'
 import { useState } from 'react'
 
-const BrazilMap = () => {
+const BrazilMap = ({handleViewGroupDetails}) => {
   const [selectedState, setSelectState] = useState(undefined)
   const brJson = BrazilJson
   echarts.registerMap('BR', brJson);
@@ -78,7 +78,6 @@ const BrazilMap = () => {
 
   const onChartClick = (e) => {
     setSelectState(gts[e.data.name])
-    console.log(selectedState)
   }
 
   const onEvents = {
@@ -96,8 +95,8 @@ const BrazilMap = () => {
         {selectedState? selectedState.map((elem, index) => (
         <Card
           key={index}
-          name={elem.name}
-          local={elem.local}
+          group={elem}
+          handleViewGroupDetails={handleViewGroupDetails}
         />
         )) : null}
       </div>

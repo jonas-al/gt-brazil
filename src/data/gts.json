@@ -191,7 +191,7 @@
                 "Trabalho, educação e gestão"
             ],
             "contacts": {
-                "site": "www.gepeto.ced.ufsc.br/"
+                "site": "http://www.gepeto.ced.ufsc.br/"
             }
         }
     ],
@@ -221,7 +221,7 @@
                 "O marxismo na América Latina"
             ],
             "contacts": {
-                "site": "www2.ufrb.edu.br"
+                "site": "https://www.ufrb.edu.br/portal/"
             }
         },
         {
@@ -291,7 +291,7 @@
                 "Arranjos produtivos locais e EPIEJA"
             ],
             "contacts": {
-                "site": "www.dppg.cefetmg.br",
+                "site": "https://www.dppg.cefetmg.br/",
                 "email": "E-mail: masilva46@des.cefetmg.br",
                 "telefone": "Telefone: (31) 3319-7015"
             }
@@ -398,7 +398,7 @@
                 "Trabalho, educação e movimentos sociais"
             ],
             "contacts": {
-                "site": "www.ufpa.br/ce/gepte",
+                "site": "https://www.ufpa.br/ce/gepte",
                 "email": "gepte@ufpa.br"
             }
         },
@@ -978,7 +978,10 @@
                 "Sentidos do Trabalho",
                 "Trabalho, Gestão e Subjetividade"
             ],
-            "contacts": "http://www.ufrgs.br/gineit/ E-mail: sidroliveira@hotmail.com"
+            "contacts": {
+                "site": "http://www.ufrgs.br/gineit/",
+                "email": "sidroliveira@hotmail.com"
+            }
         },
         {
             "name": "Grupo de Pesquisa Trabalho Educação e Conhecimento – GPTEC (2007)",
