@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon from '@mdi/react'
-import { mdiArrowDownCircle } from '@mdi/js'
+import { mdiArrowRightCircle } from '@mdi/js'
 
 const GroupDatails = ({ group, hideGroupDetails }) => {
     return (
@@ -9,12 +9,11 @@ const GroupDatails = ({ group, hideGroupDetails }) => {
                 className='flex w-full bg-slate-200 rounded-s-full'
             >
                 <button onClick={() => hideGroupDetails()}>
-                    <Icon path={mdiArrowDownCircle}
+                    <Icon path={mdiArrowRightCircle}
                         size={2}
                         horizontal
                         vertical
-                        rotate={-90}
-                        className='text-gray-400 bg-slate-200 rounded-full'
+                        className='text-gray-500 bg-slate-200 rounded-full hover:text-gray-400'
                     />
                 </button>
             </div>
@@ -22,7 +21,7 @@ const GroupDatails = ({ group, hideGroupDetails }) => {
                 <section className='flex'>
                     <div className='flex flex-col w-full p-4 gap-y-6'>
                         <div>
-                            <a className='text-2xl' href='/'>{group.name}</a>
+                            <h1 className='text-2xl' href='/'>{group.name}</h1>
                             {group.local.map((elem, index) => (
                                 <p key={index} className='text-xl font-light'>{elem}</p>
                             ))}
@@ -30,7 +29,7 @@ const GroupDatails = ({ group, hideGroupDetails }) => {
                         <div className='w-full grid grid-cols-[45%_10%_45%]'>
                             <div>
                                 <h2 className='text-xl'>Pesquisadores</h2>
-                                <div className='grid grid-cols-2 gap-x-1'>
+                                <div className='grid grid-cols-2 grid-rows-[200px_minmax(900px,_1fr)_100px] gap-x-1'>
                                     {group.researchers.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
@@ -39,7 +38,7 @@ const GroupDatails = ({ group, hideGroupDetails }) => {
                             <div className='h-full w-[1px] bg-gray-700' />
                             <div>
                                 <h2 className='text-xl'>Principais Temáticas</h2>
-                                <div className='grid grid-cols-2 gap-x-1'>
+                                <div className='grid grid-cols-2 tex gap-x-1'>
                                     {group.thematic.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
