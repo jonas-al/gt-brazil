@@ -2,7 +2,9 @@ import BrazilMap from '@/components/BrazilMap'
 import GroupDatails from 'components/GroupDatails'
 import { useState } from 'react'
 import logo from '@/assets/logo.svg'
+import logo_white from '@/assets/logo_white.svg'
 import shape from '@/assets/shape.svg'
+
 
 function App() {
   const [selectedGroup, setSelectedGroup] = useState(null)
@@ -43,8 +45,20 @@ function App() {
         </section>
       </div>
       <div className='flex'>
-        {showGroupDetails ? <GroupDatails group={selectedGroup} hideGroupDetails={hideGroupDetails} /> : <BrazilMap handleViewGroupDetails={handleViewGroupDetails} />}
+        {showGroupDetails ? 
+        <GroupDatails
+          group={selectedGroup} hideGroupDetails={hideGroupDetails} 
+        /> : 
+        <BrazilMap
+          handleViewGroupDetails={handleViewGroupDetails} 
+        />}
       </div>
+      <footer className='flex h-44 w-full bg-[#75233D] mt-10 p-4'>
+        <div className='flex flex-col items-center justify-center gap-y-2 text-center'>
+          <img src={logo_white} alt="Logo" className='w-10'/>
+          <h1 className='text-xl text-white font-bold'>Grupos de Trabalho</h1>
+        </div>
+      </footer>
     </div>
   )
 }
