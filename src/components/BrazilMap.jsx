@@ -91,7 +91,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
         option={option}
         onEvents={onEvents}
       />
-      <div className='flex flex-col gap-y-6'>
+      <div className='flex w-1/2 flex-col gap-y-6'>
         {selectedState? selectedState.map((elem, index) => (
         <Card
           key={index}
