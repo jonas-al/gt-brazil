@@ -1,14 +1,18 @@
 import React from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import Icon from '@mdi/react'
 import { mdiArrowRightCircle } from '@mdi/js'
 
-const GroupDatails = ({ group, hideGroupDetails }) => {
+const GroupDatails = () => {
+    const navigate = useNavigate()
+    const {state:{group}} = useLocation()
+
     return (
-        <div className='flex flex-col w-screen h-screen pl-4 mt-4 bg-white'>
+        <div className='flex flex-col w-screen pl-4 mt-4 bg-white'>
             <div
                 className='flex w-full bg-slate-200 rounded-s-full'
             >
-                <button onClick={() => hideGroupDetails()}>
+                <button onClick={() => navigate('/')}>
                     <Icon path={mdiArrowRightCircle}
                         size={2}
                         horizontal
@@ -17,7 +21,7 @@ const GroupDatails = ({ group, hideGroupDetails }) => {
                     />
                 </button>
             </div>
-            <div className='flex flex-col h-full justify-center gap-y-6'>
+            <div className='flex flex-col justify-center gap-y-6'>
                 <section className='flex'>
                     <div className='flex flex-col w-full p-4 gap-y-6'>
                         <div>
@@ -26,19 +30,18 @@ const GroupDatails = ({ group, hideGroupDetails }) => {
                                 <p key={index} className='text-xl font-light'>{elem}</p>
                             ))}
                         </div>
-                        <div className='w-full grid grid-cols-[45%_10%_45%]'>
+                        <div className='w-2/3 grid grid-rows-2 gap-y-8'>
                             <div>
                                 <h2 className='text-xl'>Pesquisadores</h2>
-                                <div className='grid grid-cols-2 grid-rows-[200px_minmax(900px,_1fr)_100px] gap-x-1'>
+                                <div className='grid grid-cols-2 gap-4'>
                                     {group.researchers.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
                                 </div>
                             </div>
-                            <div className='h-full w-[1px] bg-gray-700' />
                             <div>
                                 <h2 className='text-xl'>Principais Temáticas</h2>
-                                <div className='grid grid-cols-2 tex gap-x-1'>
+                                <div className='grid grid-cols-3 tex gap-x-1'>
                                     {group.thematic.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}

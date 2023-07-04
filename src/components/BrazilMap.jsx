@@ -85,7 +85,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   }
 
   return (
-    <div className='flex w-screen items-center'>
+    <div className='flex w-screen items-center' id='mapa'>
       <ReactECharts
         style={{ height: '100vh', width: '50%' }}
         option={option}

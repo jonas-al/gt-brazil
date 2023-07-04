@@ -1,23 +1,16 @@
+import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import BrazilMap from '@/components/BrazilMap'
-import GroupDatails from 'components/GroupDatails'
-import { useState } from 'react'
 import logo from '@/assets/logo.svg'
 import logo_white from '@/assets/logo_white.svg'
 import shape from '@/assets/shape.svg'
 
 
-function App() {
-  const [selectedGroup, setSelectedGroup] = useState(null)
-  const [showGroupDetails, setShowGroupDetails] = useState(false)
-
-  const handleViewGroupDetails = (group) => {
-    setSelectedGroup(group)
-    setShowGroupDetails(true)
-  }
-
-  const hideGroupDetails = () => {
-    setShowGroupDetails(false)
-  }
+function Home() {
+  useEffect(() => {
+    const mapa = document.getElementById('mapa')
+    if (mapa) mapa.scrollIntoView()
+  }, [])
 
   return (
     <div className="bg-gray-50">
@@ -73,14 +66,8 @@ function App() {
           </div>
         </section>
       </div>
-      <div className='flex mt-[900px]'>
-        {showGroupDetails ? 
-        <GroupDatails
-          group={selectedGroup} hideGroupDetails={hideGroupDetails} 
-        /> : 
-        <BrazilMap
-          handleViewGroupDetails={handleViewGroupDetails} 
-        />}
+      <div className='flex mt-[900px] '>
+        <BrazilMap />
       </div>
       <footer className='flex h-44 w-full bg-[#75233D] mt-10 p-4'>
         <div className='flex flex-col items-center justify-center gap-y-2 text-center'>
@@ -92,4 +79,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
