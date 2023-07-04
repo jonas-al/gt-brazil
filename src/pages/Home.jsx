@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import BrazilMap from '@/components/BrazilMap'
 import logo from '@/assets/logo.svg'
 import logo_white from '@/assets/logo_white.svg'
@@ -7,9 +7,13 @@ import shape from '@/assets/shape.svg'
 
 
 function Home() {
+  const history = window.history
   useEffect(() => {
     const mapa = document.getElementById('mapa')
-    if (mapa) mapa.scrollIntoView()
+    if (mapa && history.state?.usr?.from === '/detalhes') {
+      mapa.scrollIntoView()
+      history.replaceState(null, '')
+    }
   }, [])
 
   return (

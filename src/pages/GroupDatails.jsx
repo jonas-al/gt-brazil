@@ -12,7 +12,7 @@ const GroupDatails = () => {
             <div
                 className='flex w-full bg-slate-200 rounded-s-full'
             >
-                <button onClick={() => navigate('/')}>
+                <button onClick={() => navigate('/', {state: {from: '/detalhes'}, replace: true})}>
                     <Icon path={mdiArrowRightCircle}
                         size={2}
                         horizontal
