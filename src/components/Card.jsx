@@ -9,7 +9,7 @@ const Card = ({ group }) => {
       <div className='p-4'>
         <button
           className='text-2xl text-start hover:underline'
-          onClick={() => navigate('/detalhes', {state: {group: group}})}
+          onClick={() => navigate('/detalhes', {state: {group: group}, preventScrollReset: false})}
         >
           {group.name}
         </button>
