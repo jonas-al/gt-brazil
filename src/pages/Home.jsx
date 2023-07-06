@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { Link, Element } from 'react-scroll'
 import BrazilMap from '@/components/BrazilMap'
 import logo from '@/assets/logo.svg'
 import logo_white from '@/assets/logo_white.svg'
@@ -19,7 +19,8 @@ function Home() {
   return (
     <div className="bg-gray-100">
       <div className='flex flex-col w-full'>
-        <div className='flex flex-col h-screen '>
+        <div className='flex flex-col h-screen'>
+          <Element name='home' />
           <img src={shape} alt="Shape" className='absolute w-[55%] right-1'/>
           <header className='flex w-full justify-between pr-36 pt-4 pl-14'>
             <div className='flex items-center justify-center gap-x-4'>
@@ -27,11 +28,33 @@ function Home() {
               <h1 className='text-3xl text-[#75233D] font-bold'>Grupos de Trabalho</h1>
             </div>
             <nav className='flex gap-x-4 z-10 text-xl text-white items-center justify-center'>
-              <button className='rounded p-1 hover:bg-white hover:text-[#4B1623]'>Home</button>
+              <Link
+                to='home'
+                smooth = {true}
+                duration={500}
+                className='rounded p-1 hover:bg-white hover:text-[#4B1623] cursor-pointer'
+              >
+                Home
+              </Link>
               <p>|</p>
-              <button className='rounded p-1 hover:bg-white hover:text-[#4B1623]'>Mapa</button>
+              <Link
+                to='mapa'
+                smooth={true}
+                duration={500}
+                offset={10}
+                className='rounded p-1 hover:bg-white hover:text-[#4B1623] cursor-pointer'
+              >
+                Mapa
+              </Link>
               <p>|</p>
-              <button className='rounded p-1 hover:bg-white hover:text-[#4B1623]'>Contatos</button>
+              <Link
+                to='contatos'
+                smooth={true}
+                duration={500}
+                className='rounded p-1 hover:bg-white hover:text-[#4B1623] cursor-pointer'
+              >
+                Contatos
+              </Link>
             </nav>
           </header>
           <section className='w-[555px] h-full font-montserrat text-xl text-[#A8A8A8] pl-20 flex flex-col gap-y-1 pt-40'>
@@ -72,10 +95,12 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className='flex'>
+      <div className='overflow-hidden'>
+        <Element name='mapa' />
         <BrazilMap />
       </div>
       <footer className='flex h-44 w-full bg-[#75233D] mt-10 p-4 gap-x-10'>
+        <Element name='contatos' />
         <div className='flex flex-col items-center justify-center gap-y-2 text-center'>
           <img src={logo_white} alt="Logo" className='w-10'/>
           <h1 className='text-xl text-white font-bold'>Grupos de Trabalho</h1>
