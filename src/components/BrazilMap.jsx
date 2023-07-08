@@ -3,7 +3,7 @@ import BrazilJson from '@/data/brazil_geo.json'
 import gts from '@/data/gts.json'
 import * as echarts from 'echarts/core'
 import Card from '@/components/Card'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const BrazilMap = ({handleViewGroupDetails}) => {
   const [selectedState, setSelectState] = useState(undefined)
@@ -11,6 +11,17 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   echarts.registerMap('BR', brJson);
 
   const option = {
+    title: {
+      text: 'Distribuição dos grupos pelo Brasil',
+      subtext: 'Clique em um estado para ver detalhes',
+      left: 'center',
+      textStyle: {
+        fontSize: '20'
+      },
+      subtextStyle: {
+        fontSize: '18'
+      }
+    },
     tooltip: {
       trigger: 'item',
       showDelay: 0,
@@ -18,6 +29,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
     },
     visualMap: {
       left: 'left',
+      bottom: '20%',
       min: 0,
       max: 5,
       inRange: {
@@ -84,14 +96,30 @@ const BrazilMap = ({handleViewGroupDetails}) => {
     click: onChartClick
   }
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [mapHeight, setMapHeight] = useState('100vh') 
+
+  const onResize = () => {
+    setWindowWidth(window.innerWidth)
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', onResize)
+    if (windowWidth >= 1300) setMapHeight('100vh')
+    else if (windowWidth >= 1200) setMapHeight('80vh')
+    else if (windowWidth >= 1000) setMapHeight('70vh')
+    else setMapHeight('70vh')
+  })
+
   return (
-    <div className='flex w-screen items-center' id='mapa'>
+    <div className='flex w-screen items-center flex-col lg:flex-row' id='mapa'>
       <ReactECharts
-        style={{ height: '100vh', width: '50%' }}
+        className={`w-full lg:w-1/2`}
+        style={{height: mapHeight}}
         option={option}
         onEvents={onEvents}
       />
-      <div className='flex w-1/2 flex-col gap-y-6'>
+      <div className='flex w-full lg:w-1/2 flex-col gap-y-6 px-8 z-10 sm:mt-0'>
         {selectedState? selectedState.map((elem, index) => (
         <Card
           key={index}
