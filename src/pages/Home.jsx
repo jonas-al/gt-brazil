@@ -25,10 +25,10 @@ function Home() {
         <div className='flex flex-col h-screen'>
           <Element name='home' />
           <img src={shape} alt="Shape" className='absolute w-[65%] sm:w-[55%] right-0'/>
-          <header className='flex w-full justify-between  pr-6 pl-6 pt-4 sm:pl-14 sm:pr-36'>
+          <header className='flex w-full justify-between pr-6 pl-6 pt-4 sm:pl-14 md:pr-28 lg:pr-36'>
             <div className='flex flex-col items-center justify-center gap-x-4 sm:flex-row'>
               <img src={logo} alt="Logo" className='w-14'/>
-              <h1 className='text-2xl text-[#75233D] font-bold sm:text-3xl text-center w-32 sm:w-full'>Grupos de Trabalho</h1>
+              <h1 className='text-2xl text-[#75233D] font-bold sm:text-3xl text-center w-32 lg:w-full'>Grupos de Trabalho</h1>
             </div>
             <nav className='gap-x-4 z-10 text-xl text-white items-center justify-center hidden sm:flex'>
               <Link
@@ -141,16 +141,17 @@ function Home() {
         </section>
       </div>
       <div className='overflow-hidden mt-20'>
-        <Element name='mapa' />
+        <Element name='mapa'/>
         <BrazilMap />
       </div>
       <footer className='flex justify-between sm:justify-between h:52 sm:h-44 w-full bg-[#75233D] mt-10 py-2 px-6 sm:px-24 gap-x-0 sm:gap-x-10'>
-        <Element name='contatos' className='hidden' />
+        <Element name='contatos' className='hidden'/>
         <div className='flex flex-col items-center justify-center gap-y-2 text-center'>
           <img src={logo_white} alt="Logo" className='w-10'/>
           <h1 className='text-lg sm:text-xl text-white font-bold'>Grupos de <br /> Trabalho</h1>
         </div>
         <div className='flex flex-col text-lg sm:text-xl text-white font-bold gap-y-2'>
+          <Element name='contatos'/>
           Contatos
           <p className='text-md font-normal'>
             Prof. Doriedson Rodrigues<br />
