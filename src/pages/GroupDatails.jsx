@@ -8,7 +8,7 @@ const GroupDatails = () => {
     const {state:{group}} = useLocation()
 
     return (
-        <div className='flex flex-col w-screen pl-4 mt-4 bg-white'>
+        <div className='flex flex-col w-full pl-4 mt-4 bg-white'>
             <div
                 className='flex w-full bg-slate-200 rounded-s-full'
             >
@@ -21,7 +21,7 @@ const GroupDatails = () => {
                     />
                 </button>
             </div>
-            <div className='flex flex-col justify-center gap-y-6'>
+            <div className='flex flex-col justify-center'>
                 <section className='flex'>
                     <div className='flex flex-col w-full p-4 gap-y-6'>
                         <div>
@@ -30,10 +30,10 @@ const GroupDatails = () => {
                                 <p key={index} className='text-xl font-light'>{elem}</p>
                             ))}
                         </div>
-                        <div className='w-2/3 grid grid-rows-2 gap-y-8'>
+                        <div className='w-full lg:w-2/3 flex flex-col gap-y-8 h-fit'>
                             <div>
                                 <h2 className='text-xl'>Pesquisadores</h2>
-                                <div className='grid grid-cols-2 gap-4'>
+                                <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                                     {group.researchers.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
@@ -41,7 +41,7 @@ const GroupDatails = () => {
                             </div>
                             <div>
                                 <h2 className='text-xl'>Principais Temáticas</h2>
-                                <div className='grid grid-cols-3 tex gap-x-1'>
+                                <div className='grid grid-cols-1 lg:grid-cols-3 tex gap-x-2 gap-y-2 sm:gap-y-0'>
                                     {group.thematic.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
