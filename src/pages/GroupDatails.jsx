@@ -2,10 +2,15 @@ import React from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import Icon from '@mdi/react'
 import { mdiArrowRightCircle } from '@mdi/js'
+import { useEffect } from 'react'
 
 const GroupDatails = () => {
     const navigate = useNavigate()
     const {state:{group}} = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
 
     return (
         <div className='flex flex-col w-full pl-4 mt-4 bg-white'>
