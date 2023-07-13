@@ -5,11 +5,36 @@ import logo from '@/assets/logo.svg'
 import logo_white from '@/assets/logo_white.svg'
 import shape from '@/assets/shape.svg'
 import Icon from '@mdi/react';
-import { mdiMenu } from '@mdi/js';
+import { mdiMenu, mdiChevronTripleDown } from '@mdi/js';
 
 
 function Home() {
   const [showDropDownMenu, setShowDropDownMenu] = useState(false)
+  const [otherGroups, setOtherGroups] = useState([
+    "Educação de Jovens e Adultos Trabalhadores",
+    "Educação e Diversidade",
+    "Educação, Trabalho e Emancipação",
+    "Grupo de Estudos de Política Educacional e Trabalho",
+    "Grupo de Estudos e Pesquisas sobre Trabalho e Educação",
+    "Grupo de Estudos em Trabalho e Educação",
+    "Grupo de Pesquisa em Trabalho e Educação",
+    "Grupo de Pesquisa em Trabalho, Educação e Educação Ambiental",
+    "Grupo de Pesquisa Políticas de Educação Básica do PPGE (UFMA)",
+    "Grupo de Pesquisa Trabalho, Conhecimento e Educação",
+    "Grupo de Pesquisa Trabalho, Educação e Conhecimento",
+    "Grupo de Pesquisa: Trabalho e Conhecimento na Educação Superior",
+    "Grupo de Pesquisas em Trabalho, Práxis e Educação",
+    "Grupo Gênero, Trabalho e Educação",
+    "Linha de Pesquisa de Trabalho e Educação",
+    "Lutas Sociais, Trabalho e Educação",
+    "Observatório Juventude Escola e Trabalho",
+    "Qualificação profissional e relações entre trabalho e educação",
+    "Trabalho, Educação e Conhecimento",
+    "Núcleo de Estudos, Documentação e Dados sobre Trabalho e Educação",
+    "Trabalho, Educação e Tecnologia Social",
+    "Grupo Educação e diversidade – Trabalho e Educação Profissional na Amazônia – GEDTEPA"
+  ])
+
   const history = window.history
   useEffect(() => {
     const mapa = document.getElementById('mapa')
@@ -65,7 +90,7 @@ function Home() {
                 className='h-fit hover:bg-slate-600 hover:bg-opacity-50 rounded sm:hidden'
               >
                 <Icon
-                  className=' text-white'
+                  className='text-white'
                   path={mdiMenu}
                   size={2}
                 />
@@ -109,8 +134,21 @@ function Home() {
               Ligados ao GT09 - Trabalho e Educação - da ANPEd - Associação Nacional de Pós-Graduação e Pesquisa em Educação
             </p>
           </section>
+          <Link
+            to='sobre'
+            smooth={true}
+            duration={500}
+            className='flex justify-center pb-6 bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
+          >
+            <Icon
+              path={mdiChevronTripleDown}
+              size={2}
+              className='animate-bounce rounded-full bg-white shadow-md p-2 text-[#4B1623]'
+            />
+          </Link>
         </div>
         <section className='flex flex-col w-full xl:w-2/3 h-full justify-between font-montserrat text-xl px-8 sm:px-20 gap-y-10'>
+          <Element name='sobre' />
           <div className='h-fit text-[#A8A8A8] text-xl text-justify'>
             <p>
               Neste site, estão reunidos os Grupos de Estudos e Pesquisas integrantes do GT 09 - Trabalho e Educação - ANPEd - da Associação Nacional de Pós-Graduação e Pesquisa em Educação - Anped, presentes em diversas regiões do país. Com base nele, tem-se o registro de diferentes Grupos de Estudos e Pesquisas que tomam a unidade Trabalho e Educação para analisar, com base no materialismo histórico-dialético, processos formativos da classe trabalhadora, a partir de temáticas como:
@@ -135,6 +173,7 @@ function Home() {
                 <li>Formação sindical</li>
                 <li>Reestruturação produtiva</li>
                 <li>Organização e gestão do trabalho</li>
+                <li>Trabalho e produção de saberes</li>
               </ul>
             </div>
           </div>
@@ -144,6 +183,14 @@ function Home() {
         <Element name='mapa'/>
         <BrazilMap />
       </div>
+      <section className='flex flex-col gap-y-4 mt-10'>
+        <h2 className='font-bold text-xl px-6'>Demais grupos</h2>
+        <ul className='grid grid-cols-1 md:grid-cols-2 text-black gap-3 px-12'>
+          {otherGroups.map((group) => (
+            <li className='list-disc'>{group}</li>
+          ))}
+        </ul>
+      </section>
       <footer className='flex justify-between sm:justify-between h:52 sm:h-44 w-full bg-[#75233D] mt-10 py-2 px-6 sm:px-24 gap-x-0 sm:gap-x-10'>
         <Element name='contatos' className='hidden'/>
         <div className='flex flex-col items-center justify-center gap-y-2 text-center'>
