@@ -138,7 +138,7 @@ function Home() {
             to='sobre'
             smooth={true}
             duration={500}
-            className='flex justify-center pb-6 bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
+            className='flex justify-center pb-14 bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
           >
             <Icon
               path={mdiChevronTripleDown}
@@ -186,8 +186,8 @@ function Home() {
       <section className='flex flex-col gap-y-4 mt-10'>
         <h2 className='font-bold text-xl px-6'>Demais grupos</h2>
         <ul className='grid grid-cols-1 md:grid-cols-2 text-black gap-3 px-12'>
-          {otherGroups.map((group) => (
-            <li className='list-disc'>{group}</li>
+          {otherGroups.map((group, index) => (
+            <li key={index} className='list-disc'>{group}</li>
           ))}
         </ul>
       </section>
