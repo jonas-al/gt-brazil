@@ -138,7 +138,7 @@ function Home() {
             to='sobre'
             smooth={true}
             duration={500}
-            className='flex justify-center pb-14 bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
+            className='flex justify-center pb-18 bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
           >
             <Icon
               path={mdiChevronTripleDown}
