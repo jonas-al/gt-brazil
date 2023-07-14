@@ -6,13 +6,17 @@ import { useEffect } from 'react'
 
 const GroupDatails = () => {
     const navigate = useNavigate()
-    const {state:{group}} = useLocation()
+    const location = useLocation()
+    const group = location.state?.group ? location.state.group : null
 
     useEffect(() => {
+        if (group === null) {
+            navigate('/')
+        }
         window.scrollTo(0, 0)
-    })
+    }, [])
 
-    return (
+    return group ? (
         <div className='flex flex-col w-full pl-4 mt-4 bg-white'>
             <div
                 className='flex w-full bg-slate-200 rounded-s-full'
@@ -64,7 +68,7 @@ const GroupDatails = () => {
                     </section>}
             </div>
         </div>
-    )
+    ) : (<div />)
 }
 
 export default GroupDatails
