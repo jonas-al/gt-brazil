@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link, Element } from 'react-scroll'
+import { Link, Element, animateScroll as scroll } from 'react-scroll'
 import BrazilMap from '@/components/BrazilMap'
 import logo from '@/assets/logo.svg'
 import logo_white from '@/assets/logo_white.svg'
@@ -43,6 +43,10 @@ function Home() {
       history.replaceState(null, '')
     }
   }, [])
+
+  const toggleDropDownMenu = () => {
+    setShowDropDownMenu(false)
+  }
 
   return (
     <div className='bg-gray-100 overflow-hidden'>
@@ -96,17 +100,14 @@ function Home() {
                 />
               </button>
               {showDropDownMenu && <nav className='absolute flex flex-col text-xl text-gray-500 font-medium bg-white rounded p-2 right-8 shadow-md'>
-                <Link
-                  onClick={() => setShowDropDownMenu(false)}
-                  to='home'
-                  smooth = {true}
-                  duration={500}
-                  className='rounded p-1 hover:bg-gray-200 hover:text-[#4B1623] cursor-pointer'
+                <button
+                  onClick={() => {scroll.scrollToTop({duration: 100, smooth: true}), setTimeout(toggleDropDownMenu, 100)}}
+                  className='rounded p-1 hover:bg-gray-200 hover:text-[#4B1623] cursor-pointer text-left'
                 >
                   Home
-                </Link>
+                </button>
                 <Link
-                  onClick={() => setShowDropDownMenu(false)}
+                  onClick={() => setTimeout(toggleDropDownMenu, 500)}
                   to='mapa'
                   smooth={true}
                   duration={500}
@@ -115,15 +116,12 @@ function Home() {
                 >
                   Mapa
                 </Link>
-                <Link
-                  onClick={() => setShowDropDownMenu(false)}
-                  to='contatos'
-                  smooth={true}
-                  duration={500}
+                <button
+                  onClick={() => {scroll.scrollToBottom({duration: 500, smooth: true}), setTimeout(toggleDropDownMenu, 500)}}
                   className='rounded p-1 hover:bg-gray-200 hover:text-[#4B1623] cursor-pointer'
                 >
                   Contatos
-                </Link>
+                </button>
               </nav>}
             </div>
           </header>
