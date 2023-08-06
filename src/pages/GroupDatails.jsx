@@ -1,19 +1,25 @@
-import React from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+// Libs
+import { useState, useEffect } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
 import Icon from '@mdi/react'
+import axios from 'axios'
+
+// Icons
 import { mdiArrowRightCircle } from '@mdi/js'
-import { useEffect } from 'react'
 
 const GroupDatails = () => {
     const navigate = useNavigate()
-    const location = useLocation()
-    const group = location.state?.group ? location.state.group : null
+    const {abbr, id} = useParams()
+    const [group, setGroup] = useState()
 
     useEffect(() => {
-        if (group === null) {
-            navigate('/')
-        }
         window.scrollTo(0, 0)
+        axios({
+            url: `${import.meta.env.VITE_LOCAL_API_URL}/${abbr}/${id}`
+        }).then((response) => {
+          console.log(response.data)
+          setGroup(response.data)
+        })
     }, [])
 
     return group ? (

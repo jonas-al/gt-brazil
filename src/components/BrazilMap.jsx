@@ -1,9 +1,15 @@
-import ReactECharts from 'echarts-for-react'
-import BrazilJson from '@/data/brazil_geo.json'
-import gts from '@/data/gts.json'
-import * as echarts from 'echarts/core'
-import Card from '@/components/Card'
+// Libs
 import { useEffect, useState } from 'react'
+import ReactECharts from 'echarts-for-react'
+import * as echarts from 'echarts/core'
+import axios from 'axios'
+
+//Components
+import Card from '@/components/Card'
+
+// Data
+import BrazilJson from '../../data/brazil_geo.json'
+import gts from '../../data/gts.json'
 
 const BrazilMap = ({handleViewGroupDetails}) => {
   const [selectedState, setSelectState] = useState(undefined)
@@ -51,33 +57,33 @@ const BrazilMap = ({handleViewGroupDetails}) => {
         roam: false,
         map: 'BR',
         data: [
-          { name: 'Acre', value: gts['Acre'].length },
-          { name: 'Alagoas', value: gts['Alagoas'].length },
-          { name: 'Amapá', value: 0 },
-          { name: 'Amazonas', value: gts['Amazonas'].length  },
-          { name: 'Bahia', value: gts['Bahia'].length },
-          { name: 'Ceará', value: gts['Ceará'].length },
-          { name: 'Espírito Santo', value: 0 },
-          { name: 'Goiás', value: 0 },
-          { name: 'Maranhão', value: 0 },
-          { name: 'Mato Grosso', value: gts['Mato Grosso'].length },
-          { name: 'Mato Grosso do Sul', value: 0 },
-          { name: 'Minas Gerais', value: gts['Minas Gerais'].length },
-          { name: 'Pará', value: gts['Pará'].length },
-          { name: 'Paraíba', value: gts['Paraíba'].length },
-          { name: 'Paraná', value: gts['Paraná'].length },
-          { name: 'Pernambuco', value: gts['Pernambuco'].length },
-          { name: 'Piauí', value: gts['Piauí'].length },
-          { name: 'Rio de Janeiro', value: gts['Rio de Janeiro'].length },
-          { name: 'Rio Grande do Norte', value: gts['Rio Grande do Norte'].length },
-          { name: 'Rio Grande do Sul', value: gts['Rio Grande do Sul'].length },
-          { name: 'Rondônia', value: gts['Rondônia'].length },
-          { name: 'Roraima', value: 0 },
-          { name: 'Santa Catarina', value: gts['Santa Catarina'].length },
-          { name: 'São Paulo', value: gts['São Paulo'].length },
-          { name: 'Sergipe', value: gts['Sergipe'].length },
-          { name: 'Tocantins', value: gts['Tocantins'].length },
-          { name: 'Distrito Federal', value: gts['Distrito Federal'].length }
+          { name: 'Acre', abbr:'AC', value: gts['AC'].length },
+          { name: 'Alagoas', abbr:'AL', value: gts['AL'].length },
+          { name: 'Amapá', abbr:'AP', value: 0 },
+          { name: 'Amazonas', abbr:'AM', value: gts['AM'].length  },
+          { name: 'Bahia', abbr:'BA', value: gts['BA'].length },
+          { name: 'Ceará', abbr:'CE', value: gts['CE'].length },
+          { name: 'Espírito Santo', abbr:'ES', value: 0 },
+          { name: 'Goiás', abbr:'GO', value: 0 },
+          { name: 'Maranhão', abbr:'MA', value: 0 },
+          { name: 'Mato Grosso', abbr:'MT', value: gts['MT'].length },
+          { name: 'Mato Grosso do Sul', abbr:'MS', value: 0 },
+          { name: 'Minas Gerais', abbr:'MG', value: gts['MG'].length },
+          { name: 'Pará', abbr:'PA', value: gts['PA'].length },
+          { name: 'Paraíba', abbr:'PB', value: gts['PB'].length },
+          { name: 'Paraná', abbr:'PR', value: gts['PR'].length },
+          { name: 'Pernambuco', abbr:'PE', value: gts['PE'].length },
+          { name: 'Piauí', abbr:'PI', value: gts['PI'].length },
+          { name: 'Rio de Janeiro', abbr:'RJ', value: gts['RJ'].length },
+          { name: 'Rio Grande do Norte', abbr:'RN', value: gts['RN'].length },
+          { name: 'Rio Grande do Sul', abbr:'RS', value: gts['RS'].length },
+          { name: 'Rondônia', abbr:'RO', value: gts['RO'].length },
+          { name: 'Roraima', abbr:'RR', value: 0 },
+          { name: 'Santa Catarina', abbr:'SC', value: gts['SC'].length },
+          { name: 'São Paulo', abbr:'SP', value: gts['SP'].length },
+          { name: 'Sergipe', abbr:'SE', value: gts['SE'].length },
+          { name: 'Tocantins', abbr:'TO', value: gts['TO'].length },
+          { name: 'Distrito Federal', abbr:'DF', value: gts['DF'].length }
         ]
       }
     ],
@@ -89,7 +95,14 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   }
 
   const onChartClick = (e) => {
-    setSelectState(gts[e.data.name])
+    axios({
+      url: import.meta.env.VITE_LOCAL_API_URL + `/${e.data.abbr}`
+    }).then((response) => {
+      setSelectState({
+        abbr: e.data.abbr,
+        data: response.data
+      })
+    })
   }
 
   const onEvents = {
@@ -120,9 +133,10 @@ const BrazilMap = ({handleViewGroupDetails}) => {
         onEvents={onEvents}
       />
       <div className='flex w-full lg:w-1/2 flex-col gap-y-6 px-8 z-10 sm:mt-0'>
-        {selectedState? selectedState.map((elem, index) => (
+        {selectedState? selectedState.data.map((elem) => (
         <Card
-          key={index}
+          key={elem.id}
+          abbr={selectedState.abbr}
           group={elem}
           handleViewGroupDetails={handleViewGroupDetails}
         />

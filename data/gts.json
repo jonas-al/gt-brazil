@@ -1,6 +1,7 @@
 {
-    "São Paulo": [
+    "SP": [
         {
+            "id": 1,
             "name": "Centro de Memória da Educação da Faculdade de Educação (CME)",
             "local": [
                 "Universidade de São Paulo - USP 1994"
@@ -21,7 +22,8 @@
                 "site": "http://www2.fe.usp.br/estrutura/cme/cme1.html"
             }
         },
-        {
+        {   
+            "id": 2,
             "name": "Grupo de Pesquisa Trabalho e Educação",
             "local": [
                 "Universidade de São Paulo - USP 2000"
@@ -40,7 +42,8 @@
                 "email": "E-mail: carmen.moraes@pq.cnpq.br"
             }
         },
-        {
+        {   
+            "id": 3,
             "name": "Núcleo de Estudos Trabalho, saúde e subjetividade (NETSS)",
             "local": [
                 "Universidade Estadual de Campinas - UNICAMP"
@@ -60,8 +63,9 @@
             }
         }
     ],
-    "Santa Catarina": [
-        {
+    "SC": [
+        {   
+            "id": 1,
             "name": "Comunicação, Trabalho e Educação – COMUTE (2002)",
             "local": [
                 "Universidade do Estado de Santa Catarina - UDESC"
@@ -91,6 +95,7 @@
             }
         },
         {
+            "id": 2,
             "name": "Núcleo De Estudos Sobre as Transformações no Mundo do Trabalho – TMT",
             "local": [
                 "Universidade Federal de Santa Catarina - UFSC 1996"
@@ -123,6 +128,7 @@
             }
         },
         {
+            "id": 3,
             "name": "Trabalho e Conhecimento na Educação Superior – TRACES",
             "local": [
                 "Universidade Federal de Santa Catarina - UFSC 2008"
@@ -144,6 +150,7 @@
             }
         },
         {
+            "id": 4,
             "name": "NINEIT – Núcleo Interdisciplinar de Estudos da Inovação e do Trabalho (1996)",
             "local": [
                 "Universidade Federal de Santa Catarina - UFSC"
@@ -169,6 +176,7 @@
             }
         },
         {
+            "id": 5,
             "name": "GEPETO – Grupo de Estudos sobre Política Educacional e Trabalho (1995)",
             "local": [
                 "Universidade Federal de Santa Catarina - UFSC"
@@ -195,8 +203,9 @@
             }
         }
     ],
-    "Bahia": [
+    "BA": [
         {
+            "id": 1,
             "name": "Grupo de Estudos e Pesquisas Marxistas - GEPM (2011)",
             "local": [
                 "UFRB - Universidade Federal do Recôncavo da Bahia"
@@ -225,6 +234,7 @@
             }
         },
         {
+            "id": 2,
             "name": "Grupo de Pesquisa Relações de trabalho, crítica, política e contemporaneidade",
             "local": [
                 "Universidade Federal da Bahia- UFBA"
@@ -238,7 +248,8 @@
                 "emai": "carlosefreitas3@gmail.com"
             }
         },
-        {
+        {   
+            "id": 3,
             "name": "Grupo de Estudos e Pesquisas em Educação, Conhecimento e Trabalho (2015)",
             "local": [
                 "Universidade Federal da Bahia - UFBA"
@@ -255,8 +266,9 @@
             }
         }
     ],
-    "Minas Gerais": [
+    "MG": [
         {
+            "id": 1,
             "name": "Formação e Produção Científica em Educação Profissional Integrada à EJA – EPIEJA",
             "local": [
                 "Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG 2006"
@@ -297,6 +309,7 @@
             }
         },
         {
+            "id": 2,
             "name": "Grupo de Pesquisa em Formação e Qualificação Profissional – FORQUAP (2002)",
             "local": [
                 "Centro Federal de Educação Tecnológica de Minas Gerais - CEFET MG"
@@ -318,6 +331,7 @@
             }
         },
         {
+            "id": 3,
             "name": "NETE – Núcleo de Estudos sobre Trabalho e Educação",
             "local": [
                 "Universidade Federal de Minas Gerais - UFMG 1995"
@@ -347,7 +361,8 @@
             }
         },
         {
-            "name": "Grupo de Estudos e Pesquisa: Trabaloh, Educação E Memória (2020)",
+            "id": 4,
+            "name": "Grupo de Estudos e Pesquisa: Trabalho, Educação e Memória (2020)",
             "local": [
                 "Instituto Federal de Educação Ciência e Tecnologia do Norte de Minas Gerais - IFNMG"
             ],
@@ -375,8 +390,9 @@
             "contacts": "E-mail: gepetem.if@gmail.com"
         }
     ],
-    "Pará": [
-        {
+    "PA": [
+        {   
+            "id": 1,
             "name": "GEPTE – Grupo de Estudos e Pesquisas Sobre Trabalho e Educação",
             "local": [
                 "Universidade Federal do Pará - UFPA 2001"
@@ -403,6 +419,7 @@
             }
         },
         {
+            "id": 2,
             "name": "Grupo de Estudo e Pesquisa sobre Gestão, Trabalho e Educação - GEPGETE (UEPA)",
             "local": [
                 "Universidade Estadual do Pará - UEPA"
@@ -428,8 +445,9 @@
             }
         }
     ],
-    "Paraná": [
+    "PR": [
         {
+            "id": 1,
             "name": "GETET – Grupo de Estudos e Pesquisas em Trabalho, Educação e Tecnologia",
             "local": [
                 "Universidade Tecnológica Federal do Paraná - UTFPR 2004"
@@ -451,6 +469,7 @@
             }
         },
         {
+            "id": 2,
             "name": "GP-TESE – Grupo de Estudos e Pesquisas sobre Trabalho, Estado, Sociedade e Educação (2003)",
             "local": [
                 "Universidade Estadual do Oeste do Paraná – Unioeste"
@@ -470,6 +489,7 @@
             }
         },
         {
+            "id": 3,
             "name": "Grupo de Pesquisa em Trabalho, Educação e História (2008)",
             "local": [
                 "Universidade Estadual do Centro-Oeste - UNICENTRO"
@@ -508,8 +528,9 @@
             "contacts": "E-mail: alessandrodemelo2006@hotmail.com"
         }
     ],
-    "Alagoas": [
+    "AL": [
         {
+            "id": 1,
             "name": "GP-TESE – Grupo de Estudos e Pesquisas sobre Trabalho, Estado, Sociedade e Educação - (2004)",
             "local": [
                 "Universidade Federal de Alagoas - UFAL"
@@ -529,8 +550,9 @@
             }
         }
     ],
-    "Rio de Janeiro": [
+    "RJ": [
         {
+            "id": 1,
             "name": "Grupo de Estudos e Pesquisa em Trabalho e Educação - GEPTE (2003)",
             "local": [
                 "Fundação Oswaldo Cruz - FIOCRUZ"
@@ -557,6 +579,7 @@
             }
         },
         {
+            "id": 2,
             "name": "Grupo de Pesquisa em Trabalho-Educação e Educação Ambiental - GPTEEA",
             "local": [
                 "Universidade Federal do Rio de Janeiro - UFRJ 2009"
@@ -577,6 +600,7 @@
             }
         },
         {
+            "id": 3,
             "name": "Grupo de Pesquisa Sobre Trabalho, Política e Sociedade – GTPS",
             "local": [
                 "Universidade Federal do Rio de Janeiro - UFRJ 2006"
@@ -602,6 +626,7 @@
             }
         },
         {
+            "id": 4,
             "name": "Grupo THESE – Projetos Integrados de Pesquisas em Trabalho, História, Educação e Saúde",
             "local": [
                 "Universidade Federal Fluminense - UFF",
@@ -622,6 +647,7 @@
             }
         },
         {
+            "id": 5,
             "name": "Núcleo de Estudos, Documentação e Dados sobre Trabalho e Educação – NEDATTE",
             "local": [
                 "Universidade Federal Fluminense - UFF (1985)"
@@ -666,8 +692,9 @@
             }
         }
     ],
-    "Ceará": [
+    "CE": [
         {
+            "id": 1,
             "name": "Centro de Estudos do Trabalho e Ontologia do Ser Social – CETROS (2013)",
             "local": [
                 "Universidade Estadual do Ceará - UECE"
@@ -697,6 +724,7 @@
             }
         },
         {
+            "id": 2,
             "name": "LABOR – Laboratório de Estudos do Trabalho e Qualificação Profissional",
             "local": [
                 "Universidade Federal do Ceará - UFC 2003"
@@ -729,6 +757,7 @@
             }
         },
         {
+            "id": 3,
             "name": "Laboratório Universitário de Educação Popular, Trabalho e Movimentos Sociais – LUTEMOS",
             "local": [
                 "Universidade Estadual do Ceará - UECE"
@@ -748,6 +777,7 @@
             }
         },
         {
+            "id": 4,
             "name": "Núcleo de Pesquisas sobre a Educação Profissional – NUPEP",
             "local": [
                 "Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE 2004"
@@ -764,6 +794,7 @@
             }
         },
         {
+            "id": 5,
             "name": "Grupo de Estudos Marxistas – GEM (UFC)",
             "local": [
                 "Universidade Federal do Ceará - UFC"
@@ -777,8 +808,9 @@
             }
         }
     ],
-    "Piauí": [
+    "PI": [
         {
+            "id": 1,
             "name": "Grupo de Estudos e Pesquisas em Educação e Marxismo (GEPEM)",
             "local": [
                 "Universidade Estadual do Piauí - UESPI"
@@ -790,6 +822,7 @@
             }
         },
         {
+            "id": 2,
             "name": "Grupo de Estudos Marxistas Piauiense – GEMPI",
             "local": [
                 "Universidade Estadual do Piauí - UESPI",
@@ -805,8 +838,9 @@
             }
         }
     ],
-    "Amazonas": [
+    "AM": [
         {
+            "id": 1,
             "name": "Grupo de Pesquisa Políticas de Educação Básica do PPGE",
             "local": [
                 "Universidade Federal do Amazonas - UFMA"
@@ -818,6 +852,7 @@
             }
         },
         {
+            "id": 2,
             "name": "GTE – Gênero, Trabalho e Educação",
             "local": [
                 "Universidade Federal do Amazonas - UFAM 2002"
@@ -843,8 +878,9 @@
             }
         }
     ],
-    "Pernambuco": [
+    "PE": [
         {
+            "id": 1,
             "name": "Grupo de Pesquisa Qualificação Profissional e Relações entre Trabalho e Educação",
             "local": [
                 "Universidade Federal de Pernambuco - UFPE 2002"
@@ -862,8 +898,9 @@
             }
         }
     ],
-    "Mato Grosso": [
+    "MT": [
         {
+            "id": 1,
             "name": "Grupo de Pesquisa Trabalho e Educação – GPTE",
             "local": [
                 "Universidade Federal do Mato Grosso - UFMT 2010"
@@ -883,8 +920,9 @@
             }
         }
     ],
-    "Distrito Federal": [
+    "DF": [
         {
+            "id": 1,
             "name": "Núcleo de Estudos e Pesquisa em Educação e Trabalho – NEPET",
             "local": [
                 "Universidade de Brasilia - UNB 2000"
@@ -903,8 +941,9 @@
             }
         }
     ],
-    "Rio Grande do Norte": [
+    "RN": [
         {
+            "id": 1,
             "name": "Núcleo de Pesquisa em Educação – NUPED",
             "local": [
                 "Universidade Federal do Rio Grande do Norte - UFRN 2004"
@@ -925,8 +964,9 @@
             }
         }
     ],
-    "Rio Grande do Sul": [
+    "RS": [
         {
+            "id": 1,
             "name": "Trabalho, Movimentos Sociais e Educação – TRAMSE (2000)",
             "local": [
                 "Universidade Federal do Rio Grande do Sul - UFRGS"
@@ -956,6 +996,7 @@
             "contacts": "http://www.ufrgs.br/tramse/ Telefone: (51) 33084144"
         },
         {
+            "id": 2,
             "name": "Grupo Interdisciplinar de Estudos da Inovação e do Trabalho (GINEIT) (1994)",
             "local": [
                 "Universidade Federal do Rio Grande do Sul - UFRGS"
@@ -984,6 +1025,7 @@
             }
         },
         {
+            "id": 3,
             "name": "Grupo de Pesquisa Trabalho Educação e Conhecimento – GPTEC (2007)",
             "local": [
                 "Universidade do Vale do Rio dos Sinos - UNISINOS"
@@ -1013,8 +1055,9 @@
             }
         }
     ],
-    "Sergipe": [
+    "SE": [
         {
+            "id": 1,
             "name": "EFPTRG – Educação, Formação, Processo de Trabalho e Relações de Gênero (1992)",
             "local": [
                 "Universidade Federal do Sergipe - UFS"
@@ -1045,8 +1088,9 @@
             }
         }
     ],
-    "Rondônia": [
+    "RO": [
         {
+            "id": 1,
             "name": "NUPEHT-RO Núcleo de Pesquisa e Estudos em História, Trabalho e Educação em Rondônia (2019)",
             "local": [
                 "Universidade Federal de Rondônia - UNIR"
@@ -1066,8 +1110,9 @@
             }
         }
     ],
-    "Tocantins": [
+    "TO": [
         {
+            "id": 1,
             "name": "Práxis: Trabalho, Educação e Sociedade",
             "local": [
                 "Instituto Federal de Educação, Ciência e Tecnologia do Tocantins - IFTO"
@@ -1093,8 +1138,9 @@
             }
         }
     ],
-    "Paraíba": [
+    "PB": [
         {
+            "id": 1,
             "name": "Grupo de Estudos Sociedade, Trabalho e Educação. GESTE/UFPB (2011)",
             "local": [
                 "Universidade Federal da Paraíba - UFPB"
@@ -1116,8 +1162,9 @@
             }
         }
     ],
-    "Acre": [
+    "AC": [
         {
+            "id": 1,
             "name": "Núcleo Interdisciplinar de Estudos e Pesquisa em Trabalho, Educação e Políticas Educacionais - NITEPES (2016)",
             "local": [
                 "Instituto Federal do Acre - IFAC"

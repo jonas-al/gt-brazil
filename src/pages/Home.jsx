@@ -1,10 +1,17 @@
+// Libs
 import { useState, useEffect } from 'react'
 import { Link, Element, animateScroll as scroll } from 'react-scroll'
+import Icon from '@mdi/react';
+
+// Components
 import BrazilMap from '@/components/BrazilMap'
+
+// Imagens
 import logo from '@/assets/logo.svg'
 import logo_white from '@/assets/logo_white.svg'
 import shape from '@/assets/shape.svg'
-import Icon from '@mdi/react';
+
+// Icons
 import { mdiMenu, mdiChevronTripleDown } from '@mdi/js';
 
 
