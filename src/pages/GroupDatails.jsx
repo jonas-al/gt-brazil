@@ -15,7 +15,7 @@ const GroupDatails = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
         axios({
-            url: `${import.meta.env.VITE_LOCAL_API_URL}/${abbr}/${id}`
+            url: `${import.meta.env.VITE_API_URL}/${abbr}/${id}`
         }).then((response) => {
           console.log(response.data)
           setGroup(response.data)

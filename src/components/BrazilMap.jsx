@@ -96,7 +96,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
 
   const onChartClick = (e) => {
     axios({
-      url: import.meta.env.VITE_LOCAL_API_URL + `/${e.data.abbr}`
+      url: import.meta.env.VITE_API_URL + `/${e.data.abbr}`
     }).then((response) => {
       setSelectState({
         abbr: e.data.abbr,
