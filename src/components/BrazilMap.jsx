@@ -97,7 +97,9 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   }
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-  const [mapHeight, setMapHeight] = useState('100vh') 
+  const [mapHeight, setMapHeight] = useState(
+    windowWidth >= 1300 ? '100vh' : windowWidth >= 1200 ? '80vh' : '70vh' 
+  ) 
 
   const onResize = () => {
     setWindowWidth(window.innerWidth)
@@ -109,7 +111,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
     else if (windowWidth >= 1200) setMapHeight('80vh')
     else if (windowWidth >= 1000) setMapHeight('70vh')
     else setMapHeight('70vh')
-  })
+  }, [])
 
   return (
     <div className='flex w-screen items-center flex-col lg:flex-row' id='mapa'>

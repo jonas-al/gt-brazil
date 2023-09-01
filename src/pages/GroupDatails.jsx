@@ -4,13 +4,14 @@ import Icon from '@mdi/react'
 import { mdiArrowRightCircle } from '@mdi/js'
 import { useEffect } from 'react'
 
+import { GroupValue } from 'context/GroupContext'
+
 const GroupDatails = () => {
     const navigate = useNavigate()
-    const location = useLocation()
-    const group = location.state?.group ? location.state.group : null
+    const { group } = GroupValue()
 
     useEffect(() => {
-        if (group === null) {
+        if (!group) {
             navigate('/')
         }
         window.scrollTo(0, 0)
