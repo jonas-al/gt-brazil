@@ -51,7 +51,7 @@ function Home() {
   return (
     <div className='bg-gray-100 overflow-hidden'>
       <div className='flex flex-col w-full'>
-        <div className='flex flex-col h-screen'>
+        <div className='flex flex-col min-h-screen pb-20'>
           <Element name='home' />
           <img src={shape} alt="Shape" className='absolute w-[65%] sm:w-[55%] right-0'/>
           <header className='flex w-full justify-between pr-6 pl-6 pt-4 sm:pl-14 md:pr-28 lg:pr-36'>
@@ -125,10 +125,10 @@ function Home() {
               </nav>}
             </div>
           </header>
-          <section className='sm:w-[555px] h-full font-montserrat text-lg sm:text-xl text-[#A8A8A8] px-8 sm:pl-20 flex flex-col gap-y-1 pt-40'>
+          <section className='sm:w-[555px] h-full font-montserrat text-lg sm:text-xl text-gray-700 px-8 sm:pl-20 flex flex-col gap-y-3 pt-40'>
             <p>Grupos de</p>
             <h1 className='font-berkshire-swash text-4xl sm:text-6xl text-[#272727]'>Estudos e Pesquisas</h1>
-            <p className='container text-justify'>
+            <p className='container text-justify leading-normal'>
               Ligados ao GT09 - Trabalho e Educação - da ANPEd - Associação Nacional de Pós-Graduação e Pesquisa em Educação
             </p>
           </section>
@@ -147,12 +147,12 @@ function Home() {
         </div>
         <section className='flex flex-col w-full xl:w-2/3 h-full justify-between font-montserrat text-xl px-8 sm:px-20 gap-y-10'>
           <Element name='sobre' />
-          <div className='h-fit text-[#A8A8A8] text-xl text-justify'>
-            <p>
+          <div className='h-fit text-gray-700 text-xl text-justify'>
+            <p className='leading-normal'>
               Neste site, estão reunidos os Grupos de Estudos e Pesquisas integrantes do GT 09 - Trabalho e Educação - ANPEd - da Associação Nacional de Pós-Graduação e Pesquisa em Educação - Anped, presentes em diversas regiões do país. Com base nele, tem-se o registro de diferentes Grupos de Estudos e Pesquisas que tomam a unidade Trabalho e Educação para analisar, com base no materialismo histórico-dialético, processos formativos da classe trabalhadora, a partir de temáticas como:
             </p>
           </div>
-          <div className='w-full grid grid-cols-1 md:grid-cols-2 grid-row-2 gap-4 text-gray-600 text-justify'>
+          <div className='w-full grid grid-cols-1 md:grid-cols-2 grid-row-2 gap-4 text-gray-700 text-justify'>
             <div className='bg-gray-200 p-4 rounded outline-dashed flex flex-col gap-3 outline-[#75233D] row-span-2 shadow-xl'>
               <ul className='list-disc px-4'>
                 <li>Trabalho e escolaridade</li>
@@ -160,10 +160,8 @@ function Home() {
                 <li>Trabalho e educação nos movimentos sociais</li>
                 <li>Trabalho docente</li>
               </ul>
-              Dentre outras que tomam a relação entre o trabalho e a educação como eixo de análise
-            </div>
-            <div className='bg-gray-200 p-4 rounded outline-dashed outline-[#75233D] h-fit shadow-xl'>
-              Trabalho na sua dimensão ontológica e nas suas formas históricas de trabalho escravo e trabalho alienado sob o capitalismo
+              <p>Dentre outras que tomam a relação entre o trabalho e a educação como eixo de análise.</p>
+              <p>Trabalho na sua dimensão ontológica e nas suas formas históricas de trabalho escravo e trabalho alienado sob o capitalismo</p>
             </div>
             <div className='bg-gray-200 p-4 rounded outline-dashed outline-[#75233D] h-fit shadow-xl'>
               <ul className='list-disc px-4'>
