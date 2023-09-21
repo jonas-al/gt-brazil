@@ -17,7 +17,7 @@ const Card = ({ group }) => {
       <div className='min-w-[30px] bg-[#C4594B]' />
       <div className='p-4'>
         <button
-          className='text-xl sm:text-2xl hover:underline text-justify'
+          className='text-xl sm:text-xl hover:underline text-justify'
           onClick={() => handleNavigate(group)}
         >
           {group.name}
@@ -25,7 +25,7 @@ const Card = ({ group }) => {
         <div className='flex gap-x-2'>
           {group.local.map((elem, index, list) => {
             if (index + 1 !== list.length) return <p key={index} className='text-xl font-light'>{elem},</p>
-            return <p key={index} className='text-xl font-light'>{elem}</p> 
+            return <p key={index} className='text-lg font-light'>{elem}</p> 
           })}
         </div>
       </div>

@@ -6,7 +6,8 @@ import Card from '@/components/Card'
 import { useEffect, useState } from 'react'
 
 const BrazilMap = ({handleViewGroupDetails}) => {
-  const [selectedState, setSelectState] = useState(undefined)
+  const [selectedState, setSelectedState] = useState('')
+  const [selectedGroups, setSelectedGroups] = useState([])
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [mapHeight, setMapHeight] = useState(
     windowWidth >= 1300 ? '100vh' : windowWidth >= 1200 ? '80vh' : '70vh' 
@@ -96,7 +97,8 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   }
 
   const onChartClick = (e) => {
-    setSelectState(gts[e.data.abbr])
+    setSelectedGroups(gts[e.data.abbr])
+    setSelectedState(e.data.name)
   }
 
   const onEvents = {
@@ -117,22 +119,37 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   }, [])
 
   return (
-    <div className='flex w-screen items-center flex-col lg:flex-row' id='mapa'>
+    <div className='flex w-screen flex-col lg:flex-row' id='mapa'>
       <ReactECharts
         className={`w-full lg:w-[55vw]`}
         style={{height: mapHeight}}
         option={option}
         onEvents={onEvents}
       />
-      <div className='flex flex-col w-full max-h-[300px] lg:max-h-[500px] px-2 overflow-y-scroll lg:w-[43vw] gap-y-6 z-10 sm:mt-0'>
-        {selectedState? selectedState.map((elem, index) => (
-        <Card
-          key={index}
-          group={elem}
-          handleViewGroupDetails={handleViewGroupDetails}
-        />
-        )) : null}
-      </div>
+      {selectedState && <div>
+        <div className='px-2 mb-4'>
+          <div>
+            <h2 className='text-xl text-gray-700 font-bold'>{selectedState}</h2>
+            {selectedGroups ?
+              <p className='text-lg text-gray-700 font-normal'>Clique em um grupo para mais informações</p>
+              :
+              <p className='text-lg text-gray-700 font-normal'>Nenhum grupo encontrado neste estado 😢</p>
+            }
+            <p className='w-[500px] text-lg text-gray-700 font-light mt-5'>
+              Caso necessário, Utilize a barra lateral ou a rolagem do mouse para ver listagem completa
+            </p>
+          </div>
+        </div>
+        <div className='flex flex-col w-full max-h-[300px] lg:max-h-[500px] px-2 overflow-y-scroll lg:w-[43vw] gap-y-6 z-10 sm:mt-0'>
+          {selectedGroups? selectedGroups.map((elem, index) => (
+          <Card
+            key={index}
+            group={elem}
+            handleViewGroupDetails={handleViewGroupDetails}
+          />
+          )) : null}
+        </div>
+      </div>}
     </div>
   )
 }
