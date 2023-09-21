@@ -7,16 +7,23 @@ import { useEffect, useState } from 'react'
 
 const BrazilMap = ({handleViewGroupDetails}) => {
   const [selectedState, setSelectState] = useState(undefined)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [mapHeight, setMapHeight] = useState(
+    windowWidth >= 1300 ? '100vh' : windowWidth >= 1200 ? '80vh' : '70vh' 
+  ) 
   const brJson = BrazilJson
+
   echarts.registerMap('BR', brJson);
 
   const option = {
     title: {
-      text: 'Distribuição dos grupos pelo Brasil',
+      text: 'Distribuição dos grupos de pesquisa pelo Brasil',
       subtext: 'Clique em um estado para ver detalhes',
       left: 'center',
       textStyle: {
-        fontSize: '20'
+        fontSize: '20',
+        width: windowWidth,
+        overflow: 'break'
       },
       subtextStyle: {
         fontSize: '18'
@@ -96,11 +103,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
     click: onChartClick
   }
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-  const [mapHeight, setMapHeight] = useState(
-    windowWidth >= 1300 ? '100vh' : windowWidth >= 1200 ? '80vh' : '70vh' 
-  ) 
-
+  
   const onResize = () => {
     setWindowWidth(window.innerWidth)
   }
@@ -116,12 +119,12 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   return (
     <div className='flex w-screen items-center flex-col lg:flex-row' id='mapa'>
       <ReactECharts
-        className={`w-full lg:w-[50vw]`}
+        className={`w-full lg:w-[55vw]`}
         style={{height: mapHeight}}
         option={option}
         onEvents={onEvents}
       />
-      <div className='flex flex-col w-full max-h-[300px] lg:max-h-[500px] px-2 overflow-y-scroll lg:w-[48vw] gap-y-6 z-10 sm:mt-0'>
+      <div className='flex flex-col w-full max-h-[300px] lg:max-h-[500px] px-2 overflow-y-scroll lg:w-[43vw] gap-y-6 z-10 sm:mt-0'>
         {selectedState? selectedState.map((elem, index) => (
         <Card
           key={index}

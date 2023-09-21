@@ -14,10 +14,10 @@ const Card = ({ group }) => {
 
   return (
     <div className='flex w-full bg-white shadow-sm'>
-      <div className='min-w-[30px] sm:min-w-[100px] bg-[#C4594B]' />
+      <div className='min-w-[30px] bg-[#C4594B]' />
       <div className='p-4'>
         <button
-          className='text-xl sm:text-2xl text-start hover:underline'
+          className='text-xl sm:text-2xl hover:underline text-justify'
           onClick={() => handleNavigate(group)}
         >
           {group.name}
