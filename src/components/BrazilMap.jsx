@@ -119,7 +119,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
   }, [])
 
   return (
-    <div className='flex w-screen flex-col lg:flex-row' id='mapa'>
+    <div className='flex w-screen items-center flex-col lg:flex-row' id='mapa'>
       <ReactECharts
         className={`w-full lg:w-[55vw]`}
         style={{height: mapHeight}}

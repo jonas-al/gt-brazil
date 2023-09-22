@@ -1422,6 +1422,35 @@
             "contacts": {
                 "site": "dgp.cnpq.br/dgp/espelhogrupo/4730779696810461"
             }
+        },
+        {
+            "id": 5,
+            "name": "Grupo de Estudos e Pesquisas sobre Trabalho, Educação e Políticas Públicas - Kairós",
+            "local": [
+                "Universidade Federal de Santa Maria - UFSM"
+            ],
+            "researchers": [
+                "Liliana Soares Ferreira – Líder/UFSM",
+                "Mariglei Severo Maraschin/UFSM",
+                "Marcos Britto Corrêa",
+                "João Francisco Magno Ribas/UFSM",
+                "Vera Vidal Peroni/UFRGS",
+                "Claudio Rodrigues do Nascimento/UFSM",
+                "Marlize Dressler/UFSM",
+                "Celia Tanajura Machado/UNEB/BA",
+                "Ana Sara Castaman/IFRS",
+                "Marcia Helena Saiaua Guimarães Rostas/IFSul",
+                "Vicente Cabrera Calheiros/UFTO",
+                "Jorge Luiz da Cunha/UFSM"
+            ],
+            "thematic": [
+                "Trabalho e educação",
+                "Trabalho pedagógico",
+                "Educação Profissional e Tecnológica",
+                "Políticas Públicas"
+            ],
+            "contacts": {
+            }
         }
     ],
     "SE": [
