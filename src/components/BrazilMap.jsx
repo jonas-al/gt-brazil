@@ -136,7 +136,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
               <p className='text-lg text-gray-700 font-normal'>Nenhum grupo encontrado neste estado 😢</p>
             }
             <p className='w-[500px] text-lg text-gray-700 font-light mt-5'>
-              Caso necessário, Utilize a barra lateral ou a rolagem do mouse para ver listagem completa
+              Caso necessário, Utilize a barra lateral ou a rolagem do mouse para ver a listagem completa
             </p>
           </div>
         </div>
