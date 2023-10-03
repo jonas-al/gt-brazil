@@ -67,7 +67,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
           { name: 'Ceará', abbr:'CE', value: gts['CE'].length },
           { name: 'Espírito Santo', abbr:'ES', value: 0 },
           { name: 'Goiás', abbr:'GO', value: 0 },
-          { name: 'Maranhão', abbr:'MA', value: 0 },
+          { name: 'Maranhão', abbr:'MA', value: gts['MA'].length },
           { name: 'Mato Grosso', abbr:'MT', value: gts['MT'].length },
           { name: 'Mato Grosso do Sul', abbr:'MS', value: 0 },
           { name: 'Minas Gerais', abbr:'MG', value: gts['MG'].length },
@@ -126,7 +126,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
         option={option}
         onEvents={onEvents}
       />
-      {selectedState && <div>
+      {selectedState && <div className='w-screen sm:w-auto'>
         <div className='px-2 mb-4'>
           <div>
             <h2 className='text-xl text-gray-700 font-bold'>{selectedState}</h2>
@@ -136,11 +136,11 @@ const BrazilMap = ({handleViewGroupDetails}) => {
               <p className='text-lg text-gray-700 font-normal'>Nenhum grupo encontrado neste estado 😢</p>
             }
             <p className='w-[500px] text-lg text-gray-700 font-light mt-5'>
-              Caso necessário, Utilize a barra lateral ou a rolagem do mouse para ver a listagem completa
+              Caso necessário, utilize a barra lateral ou a rolagem do mouse para ver a listagem completa
             </p>
           </div>
         </div>
-        <div className='flex flex-col w-full max-h-[300px] lg:max-h-[500px] px-2 overflow-y-scroll lg:w-[43vw] gap-y-6 z-10 sm:mt-0'>
+        <div className='flex flex-col max-h-[300px] lg:max-h-[500px] px-2 overflow-y-scroll lg:w-[43vw] gap-y-6 z-10 sm:mt-0'>
           {selectedGroups? selectedGroups.map((elem, index) => (
           <Card
             key={index}

@@ -19,7 +19,6 @@ function Home() {
     "Grupo de Estudos em Trabalho e Educação",
     "Grupo de Pesquisa em Trabalho e Educação",
     "Grupo de Pesquisa em Trabalho, Educação e Educação Ambiental",
-    "Grupo de Pesquisa Políticas de Educação Básica do PPGE (UFMA)",
     "Grupo de Pesquisa Trabalho, Conhecimento e Educação",
     "Grupo de Pesquisa Trabalho, Educação e Conhecimento",
     "Grupo de Pesquisa: Trabalho e Conhecimento na Educação Superior",
@@ -129,19 +128,19 @@ function Home() {
             <p>Grupos de</p>
             <h1 className='font-berkshire-swash text-4xl sm:text-6xl text-[#272727]'>Estudos e Pesquisas</h1>
             <p className='container text-justify leading-normal'>
-              Ligados ao GT09 - Trabalho e Educação - da ANPEd - Associação Nacional de Pós-Graduação e Pesquisa em Educação
+              Integrantes do GT09 - Trabalho e Educação - da ANPEd - Associação Nacional de Pós-Graduação e Pesquisa em Educação
             </p>
           </section>
           <Link
             to='sobre'
             smooth={true}
             duration={500}
-            className='flex justify-center pb-20 bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
+            className='flex justify-center bg-gray-2 sm:hidden hover:cursor-pointer animate-pulse'
           >
             <Icon
               path={mdiChevronTripleDown}
               size={2}
-              className='animate-bounce rounded-full bg-white shadow-md p-2 text-[#4B1623]'
+              className='absolute top-[90%] animate-bounce rounded-full bg-white shadow-md p-2 text-[#4B1623] self-end'
             />
           </Link>
         </div>
@@ -152,25 +151,21 @@ function Home() {
               Neste site, estão reunidos os Grupos de Estudos e Pesquisas integrantes do GT 09 - Trabalho e Educação - ANPEd - da Associação Nacional de Pós-Graduação e Pesquisa em Educação - Anped, presentes em diversas regiões do país. Com base nele, tem-se o registro de diferentes Grupos de Estudos e Pesquisas que tomam a unidade Trabalho e Educação para analisar, com base no materialismo histórico-dialético, processos formativos da classe trabalhadora, a partir de temáticas como:
             </p>
           </div>
-          <div className='w-full grid grid-cols-1 md:grid-cols-2 grid-row-2 gap-4 text-gray-700 text-justify'>
+          <div className='w-full gap-4 text-gray-700 text-justify'>
             <div className='bg-gray-200 p-4 rounded outline-dashed flex flex-col gap-3 outline-[#75233D] row-span-2 shadow-xl'>
               <ul className='list-disc px-4'>
                 <li>Trabalho e escolaridade</li>
                 <li>Trabalho e educação básica</li>
                 <li>Trabalho e educação nos movimentos sociais</li>
                 <li>Trabalho docente</li>
-              </ul>
-              <p>Dentre outras que tomam a relação entre o trabalho e a educação como eixo de análise.</p>
-              <p>Trabalho na sua dimensão ontológica e nas suas formas históricas de trabalho escravo e trabalho alienado sob o capitalismo</p>
-            </div>
-            <div className='bg-gray-200 p-4 rounded outline-dashed outline-[#75233D] h-fit shadow-xl'>
-              <ul className='list-disc px-4'>
                 <li>Formação profissional</li>
                 <li>Formação sindical</li>
                 <li>Reestruturação produtiva</li>
                 <li>Organização e gestão do trabalho</li>
                 <li>Trabalho e produção de saberes</li>
+                <li>Trabalho na sua dimensão ontológica e nas suas formas históricas de trabalho escravo e trabalho alienado sob o capitalismo</li>
               </ul>
+              <p>Dentre outras que tomam a relação entre o trabalho e a educação como eixo de análise.</p>
             </div>
           </div>
         </section>
@@ -180,7 +175,7 @@ function Home() {
         <BrazilMap />
       </div>
       <section className='flex flex-col gap-y-4 mt-10'>
-        <h2 className='font-bold text-xl px-6'>Demais grupos</h2>
+        <h2 className='font-bold text-xl px-6'>Demais grupos ainda não presentes no mapa</h2>
         <ul className='grid grid-cols-1 md:grid-cols-2 text-black gap-3 px-12'>
           {otherGroups.map((group, index) => (
             <li key={index} className='list-disc'>{group}</li>

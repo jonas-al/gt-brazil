@@ -41,22 +41,22 @@ const GroupDatails = () => {
                             ))}
                         </div>
                         <div className='w-full lg:w-2/3 flex flex-col gap-y-8 h-fit'>
-                            <div>
+                            {group.researchers.length > 0 && <div>
                                 <h2 className='text-xl'>Pesquisadores</h2>
                                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                                     {group.researchers.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
                                 </div>
-                            </div>
-                            <div>
+                            </div>}
+                            {group.thematic.length > 0 && <div>
                                 <h2 className='text-xl'>Principais Temáticas</h2>
                                 <div className='grid grid-cols-1 lg:grid-cols-3 tex gap-x-2 gap-y-2 sm:gap-y-0'>
                                     {group.thematic.map((elem, index) => (
                                         <li key={index} className='text-xl font-light'>{elem}</li>
                                     ))}
                                 </div>
-                            </div>
+                            </div>}
                         </div>
                     </div>
                 </section>
