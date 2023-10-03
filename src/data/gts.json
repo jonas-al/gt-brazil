@@ -1592,5 +1592,17 @@
                 "email": "marcondes.nicacio@ifac.edu.br"
             }
         }
+    ],
+    "MA": [
+        {
+            "id": 1,
+            "name": "Grupo de Pesquisa Políticas de Educação Básica do PPGE",
+            "local": [
+                "Universidade Federal do Maranhão - UFMA"
+            ],
+            "researchers": [],
+            "thematic": [],
+            "contacts": {}
+        }
     ]
 }
