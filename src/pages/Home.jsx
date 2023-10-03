@@ -72,7 +72,7 @@ function Home() {
                 to='mapa'
                 smooth={true}
                 duration={500}
-                offset={10}
+                offset={-30}
                 className='rounded p-1 hover:bg-white hover:text-[#4B1623] cursor-pointer'
               >
                 Mapa
@@ -110,7 +110,7 @@ function Home() {
                   to='mapa'
                   smooth={true}
                   duration={500}
-                  offset={10}
+                  offset={-10}
                   className='rounded p-1 hover:bg-gray-200 hover:text-[#4B1623] cursor-pointer'
                 >
                   Mapa
