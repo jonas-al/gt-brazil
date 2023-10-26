@@ -65,7 +65,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
           { name: 'Amazonas', abbr:'AM', value: gts['AM'].length  },
           { name: 'Bahia', abbr:'BA', value: gts['BA'].length },
           { name: 'Ceará', abbr:'CE', value: gts['CE'].length },
-          { name: 'Espírito Santo', abbr:'ES', value: 0 },
+          { name: 'Espírito Santo', abbr:'ES', value: gts['ES'].length },
           { name: 'Goiás', abbr:'GO', value: 0 },
           { name: 'Maranhão', abbr:'MA', value: gts['MA'].length },
           { name: 'Mato Grosso', abbr:'MT', value: gts['MT'].length },

@@ -1451,6 +1451,33 @@
             ],
             "contacts": {
             }
+        },
+        {
+            "id": 6,
+            "name": "Trabalho Docente, Cuidado e Classe Social",
+            "local": [
+                "Universidade de Santa Cruz do Sul"
+            ],
+            "researchers": [
+                "Moacir Fernando Viegas (Coordenador)",
+                "Aline Caroline da Rosa",
+                "Aline Fernanda Fischborn",
+                "Jean de Fraga Savegnago",
+                "Laísa Xavier Schuh",
+                "Marcelo Eder Lamb",
+                "Marlon Freitas de Campos",
+                "Suzana Guerra Albornoz",
+                "Yohanna Breunig"
+            ],
+            "thematic": [
+                "Educação e trabalho",
+                "Gênero e educação",
+                "Saberes do trabalho",
+                "Trabalho docente",
+                "Cuidado"
+            ],
+            "contacts": {
+            }
         }
     ],
     "SE": [
@@ -1603,6 +1630,36 @@
             "researchers": [],
             "thematic": [],
             "contacts": {}
+        }
+    ],
+    "ES": [
+        {
+            "id": 1,
+            "name": "GETAE - Gestão,Trabalho e Avaliação Educacional",
+            "local": [
+                "Universidade Federal do Espírito Santo - UFES"
+            ],
+            "researchers": [
+                "Itamar Mendes da Silva",
+                "Eduardo Augusto Moscon de Oliveira",
+                "Marcelo Lima"
+            ],
+            "thematic": [
+                "Ensino Médio",
+                "Educação Profissional",
+                "Gestão Democrática ",
+                "Avaliação Educacional ",
+                "Planejamento Educacional",
+                "Políticas Educacionais",
+                "Reformas da Educação"
+            ],
+            "contacts": {
+                "email": [
+                    "marcelo.lima@ufes.br, ",
+                    "eduardo.oliveira@ufes.br, ",
+                    "itamar.mendes@ufes.br"
+                ]
+            }
         }
     ]
 }
