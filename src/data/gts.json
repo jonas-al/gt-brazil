@@ -291,6 +291,38 @@
             "contacts": {
                 "site": "http://www.gepeto.ced.ufsc.br/"
             }
+        },
+        {
+            "id": 6,
+            "name": "LUTE – Lutas Sociais, Trabalho e Educação",
+            "local": [
+                "Universidade do Estado de Santa Catarina - UDESC"
+            ],
+            "researchers": [
+                "Líder: Mariléia Maria da Silva",
+                "Alessandra Luíse Nienkotter (Mestrado)",
+                "Aline Inácio Decker (Mestrado)",
+                "Cláudia Teles da Silva (Doutorado)",
+                "Filipe Joaquim Kalenguessa (Mestrado)",
+                "João Carlos Cichaczewski",
+                "Juliana Matias Faust (Doutorado)",
+                "Lucas Zimmermann (Graduação)",
+                "Mariano Moura Melgarejo (Doutorado)",
+                "Mayara Mattar Paiva (Graduação)",
+                "Patrícia de Souza (Doutorado) ",
+                "Rafael Affonso Gaspar (Doutorado)",
+                "Samara Madureira Morais (Mestrado)",
+                "Alana Almeida Ferreira (Graduação)",
+                "Pedro Antonio Soares Petri (Graduação)",
+                "Vice-líder: Maria Cristina da Rosa Fonseca da Silva"
+            ],
+            "thematic": [
+                "Capital, Trabalho, Estado e Políticas Educacionais",
+                "Políticas, formação e a Pedagogia Histórico-Crítica"
+            ],
+            "contacts": {
+                "site": "https://grupolute.wordpress.com/"
+            }
         }
     ],
     "BA": [
@@ -688,6 +720,41 @@
             ],
             "contacts": {
                 "email": "grupemauepa@gmail.com"
+            }
+        },
+        {
+            "id": 4,
+            "name": "GEDAM - Grupo de Pesquisa em Educação e Diversidade na Amazônia",
+            "local": [
+                "Universidade Federal Rural da Amazônia - UFRA"
+            ],
+            "researchers": [
+                "Prof.ª Dr.ª Tatiana do Socorro Correia Pacheco",
+                "Prof.ª Dr.ª Hilda Rosa Moraes Freitas"
+            ],
+            "thematic": [
+                "Educação para a diversidade, Inclusão Social e Direitos Humanos",
+                "Produção de saberes interdisciplinares nos contextos amazônicos: estudos das relações entre ambiente, cultura e o sagrado",
+                "Processos de Subjetivação na Docência",
+                "Leitura, Literatura, Identidades e Diversidades",
+                "Linguagens, Discurso, Sociedade e Diversidades"
+            ],
+            "contacts": {
+                "site": "https://pedagogia.ufra.edu.br/index.php?option=com_content&view=article&id=95:grupo-de-pesquisa-em-educacao-e-diversidade-na-amazonia-gedam&catid=2&Itemid=390&lang=pt"
+            }
+        },
+        {
+            "id": 5,
+            "name": "GEPTAM - Grupo de Estudos e Pesquisa em Educação Profissional e Tecnológica na Amazônia",
+            "local": [
+                "Instituto Federal do Pará - IFPA"
+            ],
+            "researchers": [
+            ],
+            "thematic": [
+            ],
+            "contacts": {
+                "site": "https://belem.ifpa.edu.br/publicacoes/2-uncategorised/811-grupos-de-pesquisa"
             }
         }
     ],
@@ -1456,7 +1523,7 @@
             "id": 6,
             "name": "Trabalho Docente, Cuidado e Classe Social",
             "local": [
-                "Universidade de Santa Cruz do Sul"
+                "Universidade de Santa Cruz do Sul - UNISC"
             ],
             "researchers": [
                 "Moacir Fernando Viegas (Coordenador)",
@@ -1477,6 +1544,62 @@
                 "Cuidado"
             ],
             "contacts": {
+            }
+        },
+        {
+            "id": 7,
+            "name": "Educação, Trabalho e Emancipação",
+            "local": [
+                "Universidade de Santa Cruz do Sul - UNISC"
+            ],
+            "researchers": [
+                "Aline Caroline da Rosa",
+                "Andreza Legramanti Gomes",
+                "Cesar Hamilton Brito Goes",
+                "Eliana Cacia de Melo Machado",
+                "Eliane Juraski Camillo",
+                "Graziela Rinaldi da Rosa",
+                "Janine Koepp",
+                "Jean de Fraga Savegnago",
+                "Jucenir Garcia da Rocha",
+                "Laísa Xavier Schuh",
+                "Marcelo Eder Lamb",
+                "Marlon Freitas de Campos",
+                "Moacir Fernando Viegas",
+                "Suzana Guerra Albornoz",
+                "Yohanna Breunig",
+                "Aline Fernanda Fischborn"
+            ],
+            "thematic": [
+                "Educação e trabalho",
+                "Educação e emancipação",
+                "Tempo livre",
+                "Formação de professores",
+                "Ética",
+                "Utopia"
+            ],
+            "contacts": {
+                "site": "https://dgp.cnpq.br/dgp/espelhogrupo/26259"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Grupo de Pesquisa em Trabalho e Educação",
+            "local": [
+                "Universidade Federal do Rio Grande do Sul - FURG"
+            ],
+            "researchers": [
+                "Profa. Dra. Caroline Terra de Oliveira - UFPEL",
+                "Profa. Dra. Simone Barreto Anadon - FURG",
+                "Profa. Dra. Renata Cristina Lopes Andrade - FURG",
+                "Profa. Dra. Vanise dos Santos Gomes - FURG",
+                "Profa. Dra.Suzane da Rocha Vieira Gonçalves - FURG"
+            ],
+            "thematic": [
+                "Políticas Públicas Educacionais"
+            ],
+            "contacts": {
+                "site": "https://gted.furg.br/"
             }
         }
     ],

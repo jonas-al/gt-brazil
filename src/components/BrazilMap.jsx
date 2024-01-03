@@ -39,7 +39,7 @@ const BrazilMap = ({handleViewGroupDetails}) => {
       left: 'left',
       bottom: '20%',
       min: 0,
-      max: 6,
+      max: 8,
       inRange: {
         color: [
           '#F8F9FB',
