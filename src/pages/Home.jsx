@@ -10,29 +10,6 @@ import { mdiMenu, mdiChevronTripleDown } from '@mdi/js';
 
 function Home() {
   const [showDropDownMenu, setShowDropDownMenu] = useState(false)
-  const [otherGroups, setOtherGroups] = useState([
-    "Educação de Jovens e Adultos Trabalhadores",
-    "Educação e Diversidade",
-    "Educação, Trabalho e Emancipação",
-    "Grupo de Estudos de Política Educacional e Trabalho",
-    "Grupo de Estudos e Pesquisas sobre Trabalho e Educação",
-    "Grupo de Estudos em Trabalho e Educação",
-    "Grupo de Pesquisa em Trabalho e Educação",
-    "Grupo de Pesquisa em Trabalho, Educação e Educação Ambiental",
-    "Grupo de Pesquisa Trabalho, Conhecimento e Educação",
-    "Grupo de Pesquisa Trabalho, Educação e Conhecimento",
-    "Grupo de Pesquisa: Trabalho e Conhecimento na Educação Superior",
-    "Grupo de Pesquisas em Trabalho, Práxis e Educação",
-    "Grupo Gênero, Trabalho e Educação",
-    "Linha de Pesquisa de Trabalho e Educação",
-    "Lutas Sociais, Trabalho e Educação",
-    "Observatório Juventude Escola e Trabalho",
-    "Qualificação profissional e relações entre trabalho e educação",
-    "Trabalho, Educação e Conhecimento",
-    "Núcleo de Estudos, Documentação e Dados sobre Trabalho e Educação",
-    "Trabalho, Educação e Tecnologia Social",
-    "Grupo Educação e diversidade – Trabalho e Educação Profissional na Amazônia – GEDTEPA"
-  ])
 
   const history = window.history
   useEffect(() => {
@@ -174,14 +151,6 @@ function Home() {
         <Element name='mapa'/>
         <BrazilMap />
       </div>
-      <section className='flex flex-col gap-y-4 mt-10'>
-        <h2 className='font-bold text-xl px-6'>Demais grupos ainda não presentes no mapa</h2>
-        <ul className='grid grid-cols-1 md:grid-cols-2 text-black gap-3 px-12'>
-          {otherGroups.map((group, index) => (
-            <li key={index} className='list-disc'>{group}</li>
-          ))}
-        </ul>
-      </section>
       <footer className='flex justify-between sm:justify-between h:52 sm:h-44 w-full bg-[#75233D] mt-10 py-2 px-6 sm:px-24 gap-x-0 sm:gap-x-10'>
         <Element name='contatos' className='hidden'/>
         <div className='flex flex-col items-center justify-center gap-y-2 text-center'>
