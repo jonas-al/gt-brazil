@@ -140,6 +140,42 @@
             ],
             "contacts": {
             }
+        },
+        {   
+            "id": 7,
+            "name": "Grupo de pesquisa: Estado, Políticas Públicas e Educação Profissional",
+            "local": [
+                "Universidade Estadual de Campinas - Unicamp (2017)"
+            ],
+            "researchers": [
+                "Lucas Barbosa Pelissari",
+                "Andréia Cristina Bittencourt",
+                "Cintia de Souza Batista Tortato",
+                "Danielle Pereira Gomes",
+                "Elisabete Neves Gerva",
+                "Fabiola Soares Arcega",
+                "Fernanda Maria Caldeira Azevedo",
+                "Idianes Tereza Mascarelo",
+                "Patrícia da Silveira",
+                "Cibele Martins de Camargo Fanini",
+                "Daiane Machado Avila Christakis",
+                "Irene Cristina Silvério",
+                "Kamila Fernanda Oliveira Anzen",
+                "Maira Ferreira Martins",
+                "Nicoli Alves Pereira",
+                "Nicolly Ferreira Borges",
+                "Pedro Coloma Medeiros"
+            ],
+            "thematic": [
+                "Políticas de Educação Profissional e Tecnológica (EPT), a partir de múltiplos recortes/perspectivas",
+                "Políticas de ensino médio e EPT em termos de sua natureza de classe e fração de classe – conjuntura, hegemonia ideológica e hegemonia política",
+                "Concepções pedagógicas e experiências em educação politécnica, Ensino Médio Integrado, pedagogias marxistas etc",
+                "Contrarreformas educacionais",
+                "Intervenção: Contribuir com a formação político-pedagógica de profissionais da educação, sindicatos e movimentos sociais"
+            ],
+            "contacts": {
+                "email": "grupoeppep@gmail.com"
+            }
         }
     ],
     "SC": [
@@ -246,20 +282,18 @@
                 "Universidade Federal de Santa Catarina - UFSC"
             ],
             "researchers": [
-                "Maria Helena Michels – UFSC (Coordenadora)",
-                "Roselane Fátima Campos – UFSC",
-                "Rosalba Maria Cardoso Garcia – UFSC",
-                "Eneida Oto Shiroma – UFSC",
-                "Suze Scalcon – UFSC Mariléia Maria da Silva – UDESC",
-                "Jocemara Triches – UDESC",
-                "Marilda Rodrigues – Universidade Federal da Fronteira Sul – SC",
-                "Alcilea Medeiros Cardoso – SEMEC – Florianópolis/SC"
+                "Eneida Oto Shiroma",
+                "Jéferson Silveira Dantas",
+                "Jocemara Triches",
+                "Maria Helena Michels",
+                "Marcos Edgar Bassi",
+                "Rodrigo Diego De Souza",
+                "Rosalba Maria Cardoso Garcia"
             ],
             "thematic": [
-                "Políticas públicas e reformas educacionais",
-                "Formação e profissionalização de educadores",
-                "Educação e inclusão",
-                "Trabalho, educação e gestão"
+                "Trabalho, Capital, Estado e Educação",
+                "Trabalho e políticas docentes: formação, carreira e remuneração",
+                "Ações, programas e políticas para a Educação Básica e o Ensino Superior"
             ],
             "contacts": {
                 "site": "http://www.gepeto.ced.ufsc.br/"
