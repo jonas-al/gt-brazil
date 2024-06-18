@@ -1581,42 +1581,6 @@
         },
         {
             "id": 7,
-            "name": "Educação, Trabalho e Emancipação",
-            "local": [
-                "Universidade de Santa Cruz do Sul - UNISC"
-            ],
-            "researchers": [
-                "Aline Caroline da Rosa",
-                "Andreza Legramanti Gomes",
-                "Cesar Hamilton Brito Goes",
-                "Eliana Cacia de Melo Machado",
-                "Eliane Juraski Camillo",
-                "Graziela Rinaldi da Rosa",
-                "Janine Koepp",
-                "Jean de Fraga Savegnago",
-                "Jucenir Garcia da Rocha",
-                "Laísa Xavier Schuh",
-                "Marcelo Eder Lamb",
-                "Marlon Freitas de Campos",
-                "Moacir Fernando Viegas",
-                "Suzana Guerra Albornoz",
-                "Yohanna Breunig",
-                "Aline Fernanda Fischborn"
-            ],
-            "thematic": [
-                "Educação e trabalho",
-                "Educação e emancipação",
-                "Tempo livre",
-                "Formação de professores",
-                "Ética",
-                "Utopia"
-            ],
-            "contacts": {
-                "site": "https://dgp.cnpq.br/dgp/espelhogrupo/26259"
-            }
-        },
-        {
-            "id": 8,
             "name": "Grupo de Pesquisa em Trabalho e Educação",
             "local": [
                 "Universidade Federal do Rio Grande do Sul - FURG"
