@@ -917,6 +917,42 @@
             "contacts": {
                 "site": "http://dgp.cnpq.br/dgp/espelhogrupo/8487147142781624"
             }
+        },
+        {
+            "id": 6,
+            "name": "Grupo de Pesquisa Capital, Trabalho, Estado, Educação e Políticas Educacionais – GPCATE (2002)",
+            "local": [
+                "Universidade Estadual de Ponta Grossa – UEPG"
+            ],
+            "researchers": [
+                "Aldimara Catarina Brito Delabona Boutin",
+                "Alessandro de Melo",
+                "Carina Alves da Silva Darcoleto",
+                "Simone de Fátima Flach",
+                "Ana Eduarda Taras Vaz (estudante)",
+                "Camila de Souza Ribeiro (estudante)",
+                "Ellen Kauane Rutes (estudante)",
+                "Estefani de Oliveira (estudante)",
+                "Fernanda de Aragão Mikolaiczyk (estudante)",
+                "Gabriel Cavallari Cortilho (estudante)",
+                "Jennifer Caroline Dias (estudante)",
+                "Juliana Bicalho De Carvalho Barrios (estudante)",
+                "Larissa de Quadros Machado (estudante)",
+                "Maria Eunice Martchuk da Costa (estudante)",
+                "Maria Helena da Silva (estudante)",
+                "Mayara Rabe Camargo (estudante)",
+                "Renata Cristina Almeida Oliveira (estudante)",
+                "Sandra Cristina Demschinski (estudante)",
+                "Tânia Parolin da Cruz (estudante)",
+                "Viviana Patricia Kozlowski Lucyk (estudante)"
+            ],
+            "thematic": [
+                "Políticas de formação para profissionais da educação",
+                "Políticas educacionais para a Educação Básica",
+                "Trabalho e educação"
+            ],
+            "contacts": {
+            }
         }
     ],
     "AL": [
